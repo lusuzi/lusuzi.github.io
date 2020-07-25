@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>LuSuZi&#39;s website</title>
+  <title>LuSuZi&#39;s blog</title>
   <icon>http://lusuzi.github.io/icon.png</icon>
   <subtitle>鹿苏子</subtitle>
   <link href="/atom.xml" rel="self"/>
