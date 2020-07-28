@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://lusuzi.github.io/"/>
-  <updated>2020-07-27T11:09:16.830Z</updated>
+  <updated>2020-07-27T15:17:13.396Z</updated>
   <id>http://lusuzi.github.io/</id>
   
   <author>
@@ -21,11 +21,11 @@
     <link href="http://lusuzi.github.io/article/8e989db0.html"/>
     <id>http://lusuzi.github.io/article/8e989db0.html</id>
     <published>2020-07-27T10:12:12.000Z</published>
-    <updated>2020-07-27T11:09:16.830Z</updated>
+    <updated>2020-07-27T15:17:13.396Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;如果需要在一台电脑部署多个Hexo博客， 可以在同一个Github账号下创建多个Pages，但那样只有一个&lt;code&gt;用户名.github.io&lt;/code&gt;这样的域名，其他的为子域名&lt;code&gt;用户名.github.io/xxx&lt;/code&gt;。也可以多申请几个Github账号，每个账号建立一个Hexo博客，彼此独立。以下介绍如何实施后者。&lt;/p&gt;
+      &lt;p&gt;如果需要在一台电脑部署多个Hexo博客，可以在同一个Github账号下创建多个Pages，但那样只有一个&lt;code&gt;用户名.github.io&lt;/code&gt;这样的域名，其他的为子域名&lt;code&gt;用户名.github.io/xxx&lt;/code&gt;。也可以多申请几个Github账号，每个账号建立一个Hexo博客，彼此独立。以下介绍如何实施后者。&lt;/p&gt;
     
     </summary>
     
@@ -46,7 +46,7 @@
     <link href="http://lusuzi.github.io/article/4a17b156.html"/>
     <id>http://lusuzi.github.io/article/4a17b156.html</id>
     <published>2020-07-27T07:24:38.310Z</published>
-    <updated>2020-07-27T07:24:38.310Z</updated>
+    <updated>2020-07-28T00:35:34.553Z</updated>
     
     <summary type="html">
     
