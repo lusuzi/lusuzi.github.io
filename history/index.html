@@ -85,7 +85,9 @@
   
 </head>
 
-<body>
+
+<body oncontextmenu="return popMenu(event);">
+
   
   
   
@@ -103,41 +105,31 @@
   </div>
   <div class="b">
     <div class="menu navigation featured">
-      <ul class="cover-list-h">
+      <div class="list-h">
         
           
-            <li>
-              <a class="nav home" href="/archives/" rel="nofollow" id="archives">
-                <i class="fas fa-archive fa-fw"></i>归档
-              </a>
-            </li>
+            <a href="/archives/" rel="nofollow" id="archives">
+              <i class="fas fa-archive fa-fw"></i><p>归档</p>
+            </a>
           
-            <li>
-              <a class="nav home" href="/friends/" id="friends">
-                <i class="fas fa-link fa-fw"></i>友链
-              </a>
-            </li>
+            <a href="/friends/" id="friends">
+              <i class="fas fa-link fa-fw"></i><p>友链</p>
+            </a>
           
-            <li>
-              <a class="nav home" href="/blogger_said/" id="blogger_said">
-                <i class="fas fa-comment-dots fa-fw fa-fw"></i>博主说
-              </a>
-            </li>
+            <a href="/blogger_said/" id="blogger_said">
+              <i class="fas fa-comment-dots fa-fw fa-fw"></i><p>博主说</p>
+            </a>
           
-            <li>
-              <a class="nav home" href="/messages/" rel="nofollow" id="messages">
-                <i class="fa fa-comments fa-fw"></i>留言板
-              </a>
-            </li>
+            <a href="/messages/" rel="nofollow" id="messages">
+              <i class="fa fa-comments fa-fw"></i><p>留言板</p>
+            </a>
           
-            <li>
-              <a class="nav home" href="/about/" rel="nofollow" id="about">
-                <i class="fas fa-info-circle fa-fw"></i>关于
-              </a>
-            </li>
+            <a href="/about/" rel="nofollow" id="about">
+              <i class="fas fa-info-circle fa-fw"></i><p>关于</p>
+            </a>
           
         
-      </ul>
+      </div>
     </div>
   </div>
 </div>
@@ -174,7 +166,7 @@
             
             
               <li>
-                <a class="flat-box" href="/" id="home">
+                <a class="menuitem flat-box" href="/" id="home">
                   <i class="fas fa-home fa-fw"></i>首页
                 </a>
                 
@@ -185,7 +177,7 @@
             
             
               <li>
-                <a class="flat-box">
+                <a class="menuitem flat-box">
                   <i class="fas fa-code-branch fa-fw"></i>索引
                 </a>
                 
@@ -194,7 +186,7 @@
                       
             
               <li>
-                <a class="flat-box" href="/archives/" id="archives">
+                <a class="menuitem flat-box" href="/archives/" id="archives">
                   <i class="fas fa-archive fa-fw"></i>归档
                 </a>
                 
@@ -205,7 +197,7 @@
                       
             
               <li>
-                <a class="flat-box" href="/categories/" id="categories">
+                <a class="menuitem flat-box" href="/categories/" id="categories">
                   <i class="fas fa-folder-open fa-fw"></i>分类
                 </a>
                 
@@ -216,7 +208,7 @@
                       
             
               <li>
-                <a class="flat-box" href="/tags/" id="tags">
+                <a class="menuitem flat-box" href="/tags/" id="tags">
                   <i class="fas fa-tags fa-fw"></i>标签
                 </a>
                 
@@ -233,7 +225,7 @@
             
             
               <li>
-                <a class="flat-box">
+                <a class="menuitem flat-box">
                   <i class="fa fa-cube fa-fw"></i>作品
                 </a>
                 
@@ -242,7 +234,7 @@
                       
             
               <li>
-                <a class="flat-box" href="/works/item1" id="worksitem1">
+                <a class="menuitem flat-box" href="/works/item1" id="worksitem1">
                   项目1
                 </a>
                 
@@ -253,7 +245,7 @@
                       
             
               <li>
-                <a class="flat-box" href="/works/" id="works">
+                <a class="menuitem flat-box" href="/works/" id="works">
                   <i class="fas fa-chevron-right fa-fw"></i>所有作品
                 </a>
                 
@@ -270,7 +262,7 @@
             
             
               <li>
-                <a class="flat-box">
+                <a class="menuitem flat-box">
                   <i class="fa fa-heart fa-fw"></i>娱乐
                 </a>
                 
@@ -279,7 +271,7 @@
                       
             
               <li>
-                <a class="flat-box" href="/books/" id="books">
+                <a class="menuitem flat-box" href="/books/" id="books">
                   <i class="fa fa-book fa-fw"></i>书籍
                 </a>
                 
@@ -290,7 +282,7 @@
                       
             
               <li>
-                <a class="flat-box" href="/photos/" id="photos">
+                <a class="menuitem flat-box" href="/photos/" id="photos">
                   <i class="fa fa-image fa-fw"></i>相册
                 </a>
                 
@@ -302,7 +294,7 @@
             
               
                 <li>
-                  <a class="flat-box">
+                  <a class="menuitem flat-box">
                     <i class="fas fa-compact-disc fa-fw music"></i>音乐
                   </a>
                   <ul class="list-v">
@@ -333,7 +325,7 @@
             
             
               <li>
-                <a class="flat-box">
+                <a class="menuitem flat-box">
                   <i class="fa fa-bars fa-fw fa-fw"></i>小工具
                 </a>
                 
@@ -342,7 +334,7 @@
                       
             
               <li>
-                <a class="flat-box" href="/atom.xml" id="atomxml">
+                <a class="menuitem flat-box" href="/atom.xml" id="atomxml">
                   <i class="fas fa-rss fa-fw"></i>RSS订阅
                 </a>
                 
@@ -353,7 +345,7 @@
                       
             
               <li>
-                <a class="flat-box" href="https://7bu.top/" id="https:7butop" rel="external nofollow noopener noreferrer" target="_blank">
+                <a class="menuitem flat-box" href="https://7bu.top/" id="https:7butop" rel="external nofollow noopener noreferrer" target="_blank">
                   <i class="fa fa-server fa-fw"></i>去不图网
                 </a>
                 
@@ -364,7 +356,7 @@
                       
             
               <li>
-                <a class="flat-box" href="https://tinypng.com/" id="https:tinypngcom" rel="external nofollow noopener noreferrer" target="_blank">
+                <a class="menuitem flat-box" href="https://tinypng.com/" id="https:tinypngcom" rel="external nofollow noopener noreferrer" target="_blank">
                   <i class="fa fa-compress fa-fw"></i>图片压缩
                 </a>
                 
@@ -375,7 +367,7 @@
                       
             
               <li>
-                <a class="flat-box" href="https://travellings.now.sh/" id="https:travellingsnowsh" rel="external nofollow noopener noreferrer" target="_blank">
+                <a class="menuitem flat-box" href="https://travellings.now.sh/" id="https:travellingsnowsh" rel="external nofollow noopener noreferrer" target="_blank">
                   <i class="fa fa-binoculars fa-fw"></i>开往
                 </a>
                 
@@ -392,7 +384,7 @@
                       
             
               <li>
-                <a class="flat-box" href="https://leancloud.app/" id="https:leancloudapp" rel="external nofollow noopener noreferrer" target="_blank">
+                <a class="menuitem flat-box" href="https://leancloud.app/" id="https:leancloudapp" rel="external nofollow noopener noreferrer" target="_blank">
                   <i class="far fa-comments fa-fw"></i>评论管理
                 </a>
                 
@@ -403,7 +395,7 @@
                       
             
               <li>
-                <a class="flat-box" href="https://newbees.coding.net/" id="https:newbeescodingnet" rel="external nofollow noopener noreferrer" target="_blank">
+                <a class="menuitem flat-box" href="https://newbees.coding.net/" id="https:newbeescodingnet" rel="external nofollow noopener noreferrer" target="_blank">
                   <i class="fa fa-edit fa-fw"></i>云端编辑
                 </a>
                 
@@ -414,7 +406,7 @@
                       
             
               <li>
-                <a class="flat-box" href="https://tongji.baidu.com/web/10000245684/overview/index?siteId=15645714" id="https:tongjibaiducomweb10000245684overviewindex?siteId=15645714" rel="external nofollow noopener noreferrer" target="_blank">
+                <a class="menuitem flat-box" href="https://tongji.baidu.com/web/10000245684/overview/index?siteId=15645714" id="https:tongjibaiducomweb10000245684overviewindex?siteId=15645714" rel="external nofollow noopener noreferrer" target="_blank">
                   <i class="fa fa-align-left fa-fw"></i>百度统计
                 </a>
                 
@@ -431,7 +423,7 @@
             
             
               <li>
-                <a class="flat-box">
+                <a class="menuitem flat-box">
                   <i class="fa fa-ellipsis-v fa-fw fa-fw"></i>更多
                 </a>
                 
@@ -440,7 +432,7 @@
                       
             
               <li>
-                <a class="flat-box" href="/about/" id="about">
+                <a class="menuitem flat-box" href="/about/" id="about">
                   <i class="fas fa-info-circle fa-fw"></i>关于
                 </a>
                 
@@ -451,7 +443,7 @@
                       
             
               <li>
-                <a class="flat-box" href="/friends/" id="friends">
+                <a class="menuitem flat-box" href="/friends/" id="friends">
                   <i class="fas fa-link fa-fw"></i>友链
                 </a>
                 
@@ -462,7 +454,7 @@
                       
             
               <li>
-                <a class="flat-box" href="/history/" id="history">
+                <a class="menuitem flat-box" href="/history/" id="history">
                   <i class="fa fa-history fa-fw"></i>建站史
                 </a>
                 
@@ -479,7 +471,7 @@
                       
             
               <li>
-                <a class="flat-box" href="/blogger_said/" id="blogger_said">
+                <a class="menuitem flat-box" href="/blogger_said/" id="blogger_said">
                   <i class="fas fa-comment-dots fa-fw"></i>博主说
                 </a>
                 
@@ -490,7 +482,7 @@
                       
             
               <li>
-                <a class="flat-box" href="/messages/" id="messages">
+                <a class="menuitem flat-box" href="/messages/" id="messages">
                   <i class="fa fa-comments fa-fw"></i>留言板
                 </a>
                 
@@ -525,7 +517,7 @@
               
             
               <li>
-                <a class="flat-box" href="/" id="home">
+                <a class="menuitem flat-box" href="/" id="home">
                   <i class="fas fa-home fa-fw"></i>首页
                 </a>
                 
@@ -536,7 +528,7 @@
               
             
               <li>
-                <a class="flat-box">
+                <a class="menuitem flat-box">
                   <i class="fas fa-code-branch fa-fw"></i>索引
                 </a>
                 
@@ -545,7 +537,7 @@
                       
             
               <li>
-                <a class="flat-box" href="/archives/" id="archives">
+                <a class="menuitem flat-box" href="/archives/" id="archives">
                   <i class="fas fa-archive fa-fw"></i>归档
                 </a>
                 
@@ -556,7 +548,7 @@
                       
             
               <li>
-                <a class="flat-box" href="/categories/" id="categories">
+                <a class="menuitem flat-box" href="/categories/" id="categories">
                   <i class="fas fa-folder-open fa-fw"></i>分类
                 </a>
                 
@@ -567,7 +559,7 @@
                       
             
               <li>
-                <a class="flat-box" href="/tags/" id="tags">
+                <a class="menuitem flat-box" href="/tags/" id="tags">
                   <i class="fas fa-tags fa-fw"></i>标签
                 </a>
                 
@@ -584,7 +576,7 @@
               
             
               <li>
-                <a class="flat-box">
+                <a class="menuitem flat-box">
                   <i class="fa fa-cube fa-fw"></i>作品
                 </a>
                 
@@ -593,7 +585,7 @@
                       
             
               <li>
-                <a class="flat-box" href="/works/item1" id="worksitem1">
+                <a class="menuitem flat-box" href="/works/item1" id="worksitem1">
                   项目1
                 </a>
                 
@@ -604,7 +596,7 @@
                       
             
               <li>
-                <a class="flat-box" href="/works/" id="works">
+                <a class="menuitem flat-box" href="/works/" id="works">
                   <i class="fas fa-chevron-right fa-fw"></i>所有作品
                 </a>
                 
@@ -621,7 +613,7 @@
               
             
               <li>
-                <a class="flat-box">
+                <a class="menuitem flat-box">
                   <i class="fa fa-heart fa-fw"></i>娱乐
                 </a>
                 
@@ -630,7 +622,7 @@
                       
             
               <li>
-                <a class="flat-box" href="/books/" id="books">
+                <a class="menuitem flat-box" href="/books/" id="books">
                   <i class="fa fa-book fa-fw"></i>书籍
                 </a>
                 
@@ -641,7 +633,7 @@
                       
             
               <li>
-                <a class="flat-box" href="/photos/" id="photos">
+                <a class="menuitem flat-box" href="/photos/" id="photos">
                   <i class="fa fa-image fa-fw"></i>相册
                 </a>
                 
@@ -664,7 +656,7 @@
               
             
               <li>
-                <a class="flat-box">
+                <a class="menuitem flat-box">
                   <i class="fa fa-bars fa-fw fa-fw"></i>小工具
                 </a>
                 
@@ -673,7 +665,7 @@
                       
             
               <li>
-                <a class="flat-box" href="/atom.xml" id="atomxml">
+                <a class="menuitem flat-box" href="/atom.xml" id="atomxml">
                   <i class="fas fa-rss fa-fw"></i>RSS订阅
                 </a>
                 
@@ -684,7 +676,7 @@
                       
             
               <li>
-                <a class="flat-box" href="https://7bu.top/" id="https:7butop" rel="external nofollow noopener noreferrer" target="_blank">
+                <a class="menuitem flat-box" href="https://7bu.top/" id="https:7butop" rel="external nofollow noopener noreferrer" target="_blank">
                   <i class="fa fa-server fa-fw"></i>去不图网
                 </a>
                 
@@ -695,7 +687,7 @@
                       
             
               <li>
-                <a class="flat-box" href="https://tinypng.com/" id="https:tinypngcom" rel="external nofollow noopener noreferrer" target="_blank">
+                <a class="menuitem flat-box" href="https://tinypng.com/" id="https:tinypngcom" rel="external nofollow noopener noreferrer" target="_blank">
                   <i class="fa fa-compress fa-fw"></i>图片压缩
                 </a>
                 
@@ -706,7 +698,7 @@
                       
             
               <li>
-                <a class="flat-box" href="https://travellings.now.sh/" id="https:travellingsnowsh" rel="external nofollow noopener noreferrer" target="_blank">
+                <a class="menuitem flat-box" href="https://travellings.now.sh/" id="https:travellingsnowsh" rel="external nofollow noopener noreferrer" target="_blank">
                   <i class="fa fa-binoculars fa-fw"></i>开往
                 </a>
                 
@@ -723,7 +715,7 @@
                       
             
               <li>
-                <a class="flat-box" href="https://leancloud.app/" id="https:leancloudapp" rel="external nofollow noopener noreferrer" target="_blank">
+                <a class="menuitem flat-box" href="https://leancloud.app/" id="https:leancloudapp" rel="external nofollow noopener noreferrer" target="_blank">
                   <i class="far fa-comments fa-fw"></i>评论管理
                 </a>
                 
@@ -734,7 +726,7 @@
                       
             
               <li>
-                <a class="flat-box" href="https://newbees.coding.net/" id="https:newbeescodingnet" rel="external nofollow noopener noreferrer" target="_blank">
+                <a class="menuitem flat-box" href="https://newbees.coding.net/" id="https:newbeescodingnet" rel="external nofollow noopener noreferrer" target="_blank">
                   <i class="fa fa-edit fa-fw"></i>云端编辑
                 </a>
                 
@@ -745,7 +737,7 @@
                       
             
               <li>
-                <a class="flat-box" href="https://tongji.baidu.com/web/10000245684/overview/index?siteId=15645714" id="https:tongjibaiducomweb10000245684overviewindex?siteId=15645714" rel="external nofollow noopener noreferrer" target="_blank">
+                <a class="menuitem flat-box" href="https://tongji.baidu.com/web/10000245684/overview/index?siteId=15645714" id="https:tongjibaiducomweb10000245684overviewindex?siteId=15645714" rel="external nofollow noopener noreferrer" target="_blank">
                   <i class="fa fa-align-left fa-fw"></i>百度统计
                 </a>
                 
@@ -762,7 +754,7 @@
               
             
               <li>
-                <a class="flat-box">
+                <a class="menuitem flat-box">
                   <i class="fa fa-ellipsis-v fa-fw fa-fw"></i>更多
                 </a>
                 
@@ -771,7 +763,7 @@
                       
             
               <li>
-                <a class="flat-box" href="/about/" id="about">
+                <a class="menuitem flat-box" href="/about/" id="about">
                   <i class="fas fa-info-circle fa-fw"></i>关于
                 </a>
                 
@@ -782,7 +774,7 @@
                       
             
               <li>
-                <a class="flat-box" href="/friends/" id="friends">
+                <a class="menuitem flat-box" href="/friends/" id="friends">
                   <i class="fas fa-link fa-fw"></i>友链
                 </a>
                 
@@ -793,7 +785,7 @@
                       
             
               <li>
-                <a class="flat-box" href="/history/" id="history">
+                <a class="menuitem flat-box" href="/history/" id="history">
                   <i class="fa fa-history fa-fw"></i>建站史
                 </a>
                 
@@ -810,7 +802,7 @@
                       
             
               <li>
-                <a class="flat-box" href="/blogger_said/" id="blogger_said">
+                <a class="menuitem flat-box" href="/blogger_said/" id="blogger_said">
                   <i class="fas fa-comment-dots fa-fw"></i>博主说
                 </a>
                 
@@ -821,7 +813,7 @@
                       
             
               <li>
-                <a class="flat-box" href="/messages/" id="messages">
+                <a class="menuitem flat-box" href="/messages/" id="messages">
                   <i class="fa fa-comments fa-fw"></i>留言板
                 </a>
                 
@@ -859,6 +851,10 @@
   <div id="pjax-ispage">false</div>
   <div id="pjax-pageTitle"></div>
   <div id="pjax-enable-cover">true</div>
+  <div id="pjax-permalink">http://lusuzi.github.io/history/index.html</div>
+  
+  <div id="valine-path">none</div>
+  <div id="valine-placeholder">none</div>
   
   
 </div>
@@ -919,7 +915,7 @@
           <center><span class="p red logo large">建</span> <span class="p green logo large">站</span> <span class="p blue logo large">史</span></center>
 <details green open><summary> <p>开始</p> </summary>
               <div class="content">
-              <p><span class="btn"><a href="/" title="2020.07.25">2020.07.25</a></span>从零开始建立博客</p><div class="checkbox checked"><input type="radio" checked="checked">            <p>基于Hexo下的Volantis主题搭建</p>            </div><div class="checkbox checked"><input type="radio" checked="checked">            <p>使用Valine评论系统</p>            </div><div class="checkbox checked"><input type="radio" checked="checked">            <p>使用Artitalk建立【博主说】页面</p>            </div><div class="checkbox checked"><input type="radio" checked="checked">            <p>参考Colsrch大佬建立多层级导航栏</p>            </div><div class="checkbox checked"><input type="radio" checked="checked">            <p>使用hexo-offline-popup插件，速度更快且拥有了更新提示功能</p>            </div><div class="checkbox checked"><input type="radio" checked="checked">            <p>使用hexo-lazyload-image插件缓解页面图片多时加载缓慢的问题</p>            </div><div class="checkbox checked"><input type="radio" checked="checked">            <p>使用hexo-related-popular-posts插件推荐相关文章</p>            </div><div class="checkbox checked"><input type="radio" checked="checked">            <p>使用hexo-wordcount插件进行字数统计和阅读时长估计</p>            </div><div class="checkbox checked"><input type="radio" checked="checked">            <p>使用hexo-abbrlink插件解决中文url问题</p>            </div><div class="checkbox checked"><input type="radio" checked="checked">            <p>使用hexo-generator-feed引入RSS订阅功能</p>            </div><div class="checkbox checked"><input type="radio" checked="checked">            <p>添加网站运行时间功能</p>            </div><div class="checkbox checked"><input type="radio" checked="checked">            <p>使用Pjax</p>            </div><div class="checkbox"><input type="checkbox">            <p>【友链】尚未有朋友入驻</p>            </div><div class="checkbox"><input type="checkbox">            <p>【作品】【书籍】【相册】尚未填充内容</p>            </div><div class="checkbox"><input type="checkbox">            <p>【百度统计】功能尚未建立</p>            </div>
+              <p><span class="btn"><a class="button" href="/" title="2020.07.25">2020.07.25</a></span>从零开始建立博客</p><div class="checkbox checked"><input type="radio" checked="checked">            <p>基于Hexo下的Volantis主题搭建</p>            </div><div class="checkbox checked"><input type="radio" checked="checked">            <p>使用Valine评论系统</p>            </div><div class="checkbox checked"><input type="radio" checked="checked">            <p>使用Artitalk建立【博主说】页面</p>            </div><div class="checkbox checked"><input type="radio" checked="checked">            <p>参考Colsrch大佬建立多层级导航栏</p>            </div><div class="checkbox checked"><input type="radio" checked="checked">            <p>使用hexo-offline-popup插件，速度更快且拥有了更新提示功能</p>            </div><div class="checkbox checked"><input type="radio" checked="checked">            <p>使用hexo-lazyload-image插件缓解页面图片多时加载缓慢的问题</p>            </div><div class="checkbox checked"><input type="radio" checked="checked">            <p>使用hexo-related-popular-posts插件推荐相关文章</p>            </div><div class="checkbox checked"><input type="radio" checked="checked">            <p>使用hexo-wordcount插件进行字数统计和阅读时长估计</p>            </div><div class="checkbox checked"><input type="radio" checked="checked">            <p>使用hexo-abbrlink插件解决中文url问题</p>            </div><div class="checkbox checked"><input type="radio" checked="checked">            <p>使用hexo-generator-feed引入RSS订阅功能</p>            </div><div class="checkbox checked"><input type="radio" checked="checked">            <p>添加网站运行时间功能</p>            </div><div class="checkbox checked"><input type="radio" checked="checked">            <p>使用Pjax</p>            </div><div class="checkbox"><input type="checkbox">            <p>【友链】尚未有朋友入驻</p>            </div><div class="checkbox"><input type="checkbox">            <p>【作品】【书籍】【相册】尚未填充内容</p>            </div><div class="checkbox"><input type="checkbox">            <p>【百度统计】功能尚未建立</p>            </div>
               </div>
             </details>
 
@@ -1041,7 +1037,133 @@
   </div>
   <div>
     
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.4/dist/jquery.min.js"></script>
+      
+  
+
+  <div id="rightmenu-wrapper">
+    <ul class="list-v rightmenu" id="rightmenu-content">
+      
+        
+          
+    <li>
+      <a class="vlts-menu" onclick="menuCopy()" id="menu-copy">
+        <i class="fa fa-copy fa-fw"></i> 复制
+      </a>
+    </li>
+  
+        
+      
+        
+          <li class="navigation">
+            <a class="nav" onclick="history.back()"><i class="fa fa-arrow-left fa-fw"></i></a>
+            <a class="nav" onclick="history.forward()"><i class="fa fa-arrow-right fa-fw"></i></a>
+            <a class="nav" onclick="window.location.reload()"><i class="fa fa-redo fa-fw"></i></a>
+            <a class="nav" href="/"><i class="fa fa-home fa-fw"></i></a>
+          </li>
+        
+      
+        
+          <hr>
+        
+      
+        
+      
+        
+          
+    <li>
+      <a class="vlts-menu" href="/archives/" id="archives">
+        <i class="fas fa-list fa-fw"></i> 时间之轴
+      </a>
+    </li>
+  
+        
+      
+        
+          
+    <li>
+      <a class="vlts-menu" href="/photos/" id="photos">
+        <i class="fa fa-fan fa-spin fa-fw"></i> 时间切片
+      </a>
+    </li>
+  
+        
+      
+        
+          <hr>
+        
+      
+        
+          
+    <li>
+      <a class="vlts-menu" href="/about/" id="about">
+        <i class="fa fa-question fa-fw"></i> 关于作者
+      </a>
+    </li>
+  
+        
+      
+        
+          
+    <li>
+      <a class="vlts-menu" href="/history/" id="history">
+        <i class="fa fa-history fa-fw"></i> 建站历史
+      </a>
+    </li>
+  
+        
+      
+        
+          
+    <li>
+      <a class="vlts-menu" href="https://github.com/lusuzi/lusuzi.github.io" id="https:githubcomlusuzilusuzigithubio" rel="external nofollow noopener noreferrer" target="_blank">
+        <i class="fab fa-github fa-fw"></i> Star本站
+      </a>
+    </li>
+  
+        
+      
+    </ul>
+  </div>
+
+  <script>
+    window.document.oncontextmenu = function () {
+      return false;
+    };
+    document.addEventListener("click", function (event) {
+      var mymenu = document.getElementById('rightmenu-wrapper');
+      mymenu.style.display = "none";
+    });
+    function popMenu(event) {
+      var copy = document.getElementById('menu-copy');
+      var select = window.getSelection().toString(); // 鼠标选中的文本
+      copy.style.display = select == "" ? "none" : "block";
+      var mymenu = document.getElementById('rightmenu-wrapper');
+      var menuContent = document.getElementById('rightmenu-content');
+      var mouseClientX = event.clientX;
+      var mouseClientY = event.clientY;
+      var menuWidth = menuContent.offsetWidth == 0 ? 150 : menuContent.offsetWidth;
+      var menuHeight = menuContent.offsetHeight == 0 ? 242 : menuContent.offsetHeight;
+      var screenWidth = document.documentElement.clientWidth || document.body.clientWidth;
+      var screenHeight = document.documentElement.clientHeight || document.body.clientHeight;
+      var showLeft = mouseClientX + menuWidth > screenWidth ? mouseClientX - menuWidth + 10 : mouseClientX;
+      var showTop = mouseClientY + menuHeight > screenHeight ? mouseClientY - menuHeight + 10 : mouseClientY;
+      mymenu.style.left = showLeft + "px"; // 获取鼠标位置
+      mymenu.style.top = showTop + "px";
+      mymenu.style.display = 'block';
+      return false; // 该行代码确保系统自带的右键菜单不会被调出
+    }
+    function hideMenu() {
+      document.getElementById('rightmenu-wrapper').style.display = 'none';
+    }
+    function menuCopy() {
+      document.execCommand("Copy");
+    }
+  </script>
+
+
+    
+    
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5/dist/jquery.min.js"></script>
 
 
 
@@ -1178,7 +1300,7 @@
       mathJax: 'false',
       enableQQ: 'true',
       requiredFields: requiredFields,
-      emojiCDN: 'https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/emoji/valine/',
+      emojiCDN: 'https://cdn.jsdelivr.net/gh/volantis-x/cdn-emoji/valine/',
       emojiMaps: emojiMaps
     })
   }
@@ -1193,6 +1315,61 @@
 
 <!-- darkmodejs -->
 
+  
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5/lib/darkmode-js.min.js" aysc></script>
+
+  <script type="text/javascript">
+	function getClientHeight(){
+	  var clientHeight=0;
+	  if(document.body.clientHeight&&document.documentElement.clientHeight){
+	  var clientHeight = (document.body.clientHeight<document.documentElement.clientHeight)?document.body.clientHeight:document.documentElement.clientHeight;
+	  }else{
+	  var clientHeight = (document.body.clientHeight>document.documentElement.clientHeight)?document.body.clientHeight:document.documentElement.clientHeight;
+	  }
+	  return clientHeight;
+	}
+	function supportCss3(style) {
+		var prefix = ['webkit', 'Moz', 'ms', 'o'],
+		i,
+		humpString = [],
+		htmlStyle = document.documentElement.style,
+		_toHumb = function (string) {
+		return string.replace(/-(\w)/g, function ($0, $1) {
+		return $1.toUpperCase();
+		});
+		};
+		for (i in prefix)
+		humpString.push(_toHumb(prefix[i] + '-' + style));
+		humpString.push(_toHumb(style));
+		for (i in humpString)
+		if (humpString[i] in htmlStyle) return true;
+		return false;
+	};
+	//配置信息
+	var options = {
+	  bottom: '32px',
+	  right: 'unset',
+	  left: '16px',
+	  time: '0s',
+	  mixColor: '#f4f4f4',
+	  backgroundColor: '#f4f4f4',
+	  buttonColorDark: '#100f2c',
+	  buttonColorLight: '#f4f4f4',
+	  saveInCookies: true,
+	  label: '🌓',
+	  autoMatchOsTheme: true
+	};
+	// 卡片兼容处理 mix-blend-mode 与 effect: [shadow, floatable, blur] 冲突???
+	function pjax_darkmodejs(){
+		
+	}
+	// mix-blend-mode support?
+	if(supportCss3('mix-blend-mode')){
+		const darkmode = new Darkmode(options);
+		darkmode.showWidget();
+		pjax_darkmodejs();
+	}
+  </script>
 
 
 <!-- 复制 -->
@@ -1278,6 +1455,7 @@
   function pjax_fancybox() {
     $(".article-entry").find("img").not('.inline').not('a img').each(function () { //渲染 fancybox
       var element = document.createElement("a"); // a 标签
+      $(element).attr("class", "fancybox");
       $(element).attr("pjax-fancybox", "");  // 过滤 pjax
       $(element).attr("href", $(this).attr("src"));
       if ($(this).attr("data-original")) {
@@ -1405,16 +1583,20 @@
 
     document.addEventListener('pjax:send', function (e) {
       window.stop(); // 相当于点击了浏览器的停止按钮
-      var currentUrl = window.location.pathname;
-      var targetUrl = e.triggerElement.href;
-      var banUrl = [""];
-      if (banUrl[0] != "") {
-        banUrl.forEach(item => {
-          if(currentUrl.indexOf(item) != -1 || targetUrl.indexOf(item) != -1) {
-            window.location.href = targetUrl;
-          }
-        });
-      }
+
+      try {
+        var currentUrl = window.location.pathname;
+        var targetUrl = e.triggerElement.href;
+        var banUrl = [""];
+        if (banUrl[0] != "") {
+          banUrl.forEach(item => {
+            if(currentUrl.indexOf(item) != -1 || targetUrl.indexOf(item) != -1) {
+              window.location.href = targetUrl;
+            }
+          });
+        }
+      } catch (error) {}
+      
       window.subData = null; // 移除标题（用于一二级导航栏切换处）
       $.fancybox.close();    // 关闭弹窗
       $('.nav-main').find('.list-v').not('.menu-phone').css("display","none"); // 移除小尾巴
@@ -1474,6 +1656,10 @@
         
         
         
+        
+        
+          pjax_darkmodejs();
+        
       } catch (e) {
         console.log(e);
       }
@@ -1488,6 +1674,9 @@
 
     
   </div>
+  
+    <script src="https://cdn.jsdelivr.net/gh/inkss/common@master/hexo/js/cookie.min.js"></script>
+  
 <script>
             window.imageLazyLoadSetting = {
                 isSPA: true,
