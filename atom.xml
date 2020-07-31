@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://lusuzi.github.io/"/>
-  <updated>2020-07-27T15:17:13.396Z</updated>
+  <updated>2020-07-31T06:57:12.119Z</updated>
   <id>http://lusuzi.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>比特币价格很有可能受Tether公司的USDT操控</title>
+    <link href="http://lusuzi.github.io/article/bee0f638.html"/>
+    <id>http://lusuzi.github.io/article/bee0f638.html</id>
+    <published>2020-07-31T05:38:36.000Z</published>
+    <updated>2020-07-31T06:57:12.119Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;USDT是Tether公司推出的与美元(USD)挂钩的代币，价格基本稳定在1USDT=1美元上下波动，用户可以随时使用USDT与USD进行1:1兑换。Tether公司&lt;strong&gt;宣称&lt;/strong&gt;（呵呵）严格遵守1:1的准备金，就是每发行1个USDT，它的银行账户都会有1美元的资金保障。但其审计报告是由它自己整理汇报给用户，而非独立的第三方发布，也就是说，Tether公司发行USDT是没有审计和监管的，在人性的驱使下，几乎必然存在暗箱操作的可能。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="数据分析" scheme="http://lusuzi.github.io/categories/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
+    
+    
+      <category term="区块链" scheme="http://lusuzi.github.io/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
+    
+  </entry>
   
   <entry>
     <title>一台电脑用多个Github部署多个Hexo博客</title>
