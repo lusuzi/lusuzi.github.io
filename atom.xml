@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://lusuzi.github.io/"/>
-  <updated>2020-07-31T06:57:12.119Z</updated>
+  <updated>2020-08-01T02:04:22.851Z</updated>
   <id>http://lusuzi.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>端到端加密聊天软件Signal</title>
+    <link href="http://lusuzi.github.io/article/b318b8fe.html"/>
+    <id>http://lusuzi.github.io/article/b318b8fe.html</id>
+    <published>2020-08-01T00:22:43.000Z</published>
+    <updated>2020-08-01T02:04:22.851Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这事需要先从微信讲起。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="计算机" scheme="http://lusuzi.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    
+      <category term="工具" scheme="http://lusuzi.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="微信" scheme="http://lusuzi.github.io/tags/%E5%BE%AE%E4%BF%A1/"/>
+    
+      <category term="安全" scheme="http://lusuzi.github.io/tags/%E5%AE%89%E5%85%A8/"/>
+    
+      <category term="隐私" scheme="http://lusuzi.github.io/tags/%E9%9A%90%E7%A7%81/"/>
+    
+  </entry>
   
   <entry>
     <title>比特币价格很有可能受Tether公司的USDT操控</title>
