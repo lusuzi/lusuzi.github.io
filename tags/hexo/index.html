@@ -50,7 +50,7 @@
   
 
   
-    <link rel="shortcut icon" type="image/x-icon" href="https://7bu.top/2020/07/25/4daa6e0b0072b.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="https://cdn.jsdelivr.net/gh/lusuzi/CDN/favicon.ico">
   
 
   
@@ -151,7 +151,7 @@
         
         <a class="title flat-box" target="_self" href="/">
           
-            <img no-lazy class="logo" src="https://7bu.top/2020/07/25/c282b37e8903f.png">
+            <img no-lazy class="logo" src="https://cdn.jsdelivr.net/gh/lusuzi/CDN/logo.png">
           
           
           
@@ -902,7 +902,7 @@
       
         
           <div class="post-wrapper">
-            <article class="post white-box blur reveal ">
+            <article class="post white-box shadow reveal ">
   
 
 
@@ -1208,11 +1208,15 @@
     <div class="content">
       <ul class="entry navigation">
         
+          <li><a class="flat-box" title="/categories/%E6%8A%95%E8%B5%84%E6%97%A5%E8%AE%B0/" href="/categories/%E6%8A%95%E8%B5%84%E6%97%A5%E8%AE%B0/" id="categoriesE68A95E8B584E697A5E8AEB0"><div class="name">投资日记</div><div class="badge">(1)</div></a></li>
+        
           <li><a class="flat-box" title="/categories/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/" href="/categories/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/" id="categoriesE695B0E68DAEE58886E69E90"><div class="name">数据分析</div><div class="badge">(1)</div></a></li>
         
           <li><a class="flat-box" title="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/" id="categoriesE8AEA1E7AE97E69CBA"><div class="name">计算机</div><div class="badge">(2)</div></a></li>
         
           <li><a class="flat-box child" title="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E5%B7%A5%E5%85%B7/" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E5%B7%A5%E5%85%B7/" id="categoriesE8AEA1E7AE97E69CBAE5B7A5E585B7"><div class="name">工具</div><div class="badge">(2)</div></a></li>
+        
+          <li><a class="flat-box" title="/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" href="/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" id="categoriesE8AFBBE4B9A6E7AC94E8AEB0"><div class="name">读书笔记</div><div class="badge">(1)</div></a></li>
         
       </ul>
     </div>
@@ -1236,7 +1240,7 @@
 
 
     <div class="content">
-      <a href="/tags/git/" style="font-size: 14px; color: #999">git</a> <a href="/tags/hexo/" style="font-size: 14px; color: #999">hexo</a> <a href="/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/" style="font-size: 14px; color: #999">区块链</a> <a href="/tags/%E5%AE%89%E5%85%A8/" style="font-size: 14px; color: #999">安全</a> <a href="/tags/%E5%BE%AE%E4%BF%A1/" style="font-size: 14px; color: #999">微信</a> <a href="/tags/%E9%9A%90%E7%A7%81/" style="font-size: 14px; color: #999">隐私</a>
+      <a href="/tags/git/" style="font-size: 14px; color: #999">git</a> <a href="/tags/hexo/" style="font-size: 14px; color: #999">hexo</a> <a href="/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/" style="font-size: 24px; color: #555">区块链</a> <a href="/tags/%E5%AE%89%E5%85%A8/" style="font-size: 14px; color: #999">安全</a> <a href="/tags/%E5%BE%AE%E4%BF%A1/" style="font-size: 14px; color: #999">微信</a> <a href="/tags/%E6%95%B0%E5%AD%A6/" style="font-size: 14px; color: #999">数学</a> <a href="/tags/%E6%96%B9%E6%B3%95/" style="font-size: 14px; color: #999">方法</a> <a href="/tags/%E6%97%A5%E8%AE%B0/" style="font-size: 14px; color: #999">日记</a> <a href="/tags/%E9%9A%90%E7%A7%81/" style="font-size: 14px; color: #999">隐私</a>
     </div>
   </section>
 
@@ -1261,7 +1265,7 @@
       
         <div class="webinfo-item">
           <div>文章数目：</div>
-          <div>4 篇</div>
+          <div>6 篇</div>
         </div>
       
 
@@ -1283,7 +1287,7 @@
       
         <div class="webinfo-item">
           <div>本站总字数：</div>
-          <div>2.5k 字</div>
+          <div>3.7k 字</div>
         </div>
       
 
@@ -1425,6 +1429,16 @@
         
           
     <li>
+      <a class="vlts-menu fix-cursor-default" href="/" id="home">
+        <i class="fa fa-home fa-fw"></i> 返回首页
+      </a>
+    </li>
+  
+        
+      
+        
+          
+    <li>
       <a class="vlts-menu fix-cursor-default" href="/archives/" id="archives">
         <i class="fas fa-list fa-fw"></i> 时间之轴
       </a>
@@ -1508,6 +1522,7 @@
         // 如果有aplayer，初始化一下
       	try {
       		checkAPlayer();
+          updateTitle();
       	} catch (error) {
       		console.log(error);
       	}

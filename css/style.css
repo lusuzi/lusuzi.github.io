@@ -17,8 +17,8 @@
   box-shadow: 0 2px 4px 0px rgba(0,0,0,0.1), 0 4px 8px 0px rgba(0,0,0,0.1), 0 8px 16px 0px rgba(0,0,0,0.1);
 }
 @font-face {
-  font-family: 'UbuntuMono';
-  src: url("https://cdn.jsdelivr.net/gh/xaoxuu/cdn-fonts/UbuntuMono/UbuntuMono-Regular.ttf");
+  font-family: 'Varela Round';
+  src: url("https://cdn.jsdelivr.net/gh/xaoxuu/cdn-fonts/VarelaRound/VarelaRound-Regular.ttf");
   font-weight: 'normal';
   font-style: 'normal';
 }
@@ -38,12 +38,12 @@ html {
   color: #444;
   width: 100%;
   height: 100%;
-  font-family: UbuntuMono, "PingFang SC", "Microsoft YaHei", Helvetica, Arial, Menlo, Monaco, monospace, sans-serif;
+  font-family: "Varela Round", UbuntuMono, "PingFang SC", "Microsoft YaHei", Helvetica, Arial, Menlo, Monaco, monospace, sans-serif;
   font-size: 0.9375rem;
 }
 html >::-webkit-scrollbar {
-  height: 16px;
-  width: 16px;
+  height: 4px;
+  width: 4px;
 }
 html >::-webkit-scrollbar-track-piece {
   background: transparent;
@@ -395,7 +395,7 @@ th {
   opacity: 0.5;
 }
 .article span.btn >a:not([href]):hover {
-  cursor: not-allowed;
+  cursor: $not-allowed, not-allowed;
 }
 .article span.btn.regular >a {
   padding: 8px 12px 6px 12px;
@@ -1032,6 +1032,10 @@ details[open] >div.content > details:last-child {
 }
 .article a.link-card:hover {
   box-shadow: 0 4px 8px 0px rgba(0,0,0,0.1);
+}
+.article a.link-card div.left,
+.article a.link-card div.right {
+  pointer-events: none;
 }
 .article a.link-card div.left {
   width: 48px;
@@ -4660,7 +4664,7 @@ div.hoverbox:hover >div.target {
 }
 .l_header .nav-sub .title {
   font-size: 0.9375rem;
-  font-family: UbuntuMono, "PingFang SC", "Microsoft YaHei", Helvetica, Arial, Menlo, Monaco, monospace, sans-serif;
+  font-family: "Varela Round", UbuntuMono, "PingFang SC", "Microsoft YaHei", Helvetica, Arial, Menlo, Monaco, monospace, sans-serif;
   line-height: 1.2;
   max-height: 64px;
   white-space: normal;
@@ -5237,14 +5241,22 @@ ul.list-v.rightmenu li.music {
   display: flex;
   justify-content: space-between;
 }
+ul.list-v.rightmenu li.navigation a.vlts-menu,
+ul.list-v.rightmenu li.music a.vlts-menu {
+  padding: 0 16px 0 8px;
+}
 ul.list-v.rightmenu li.navigation a.nav,
 ul.list-v.rightmenu li.music a.nav {
   margin: 0;
-  padding: 0 8px;
+  padding: 0;
+  border-radius: 36px;
+  overflow: hidden;
 }
 ul.list-v.rightmenu li.navigation a.nav i,
 ul.list-v.rightmenu li.music a.nav i {
   margin: 0;
+  width: 36px;
+  line-height: 36px;
 }
 ul.list-v.rightmenu li.navigation a.nav:first-child,
 ul.list-v.rightmenu li.music a.nav:first-child {
@@ -5254,24 +5266,66 @@ ul.list-v.rightmenu li.navigation a.nav:last-child,
 ul.list-v.rightmenu li.music a.nav:last-child {
   margin-right: 12px;
 }
+ul.list-v.rightmenu li.music.name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ul.list-v.rightmenu li.music.name p.nav.music-title {
+  color: #696969;
+  font-size: 0.875rem;
+  max-width: 128px;
+  margin: 0 20px;
+  overflow: hidden;
+}
+ul.list-v.rightmenu li.music.name p.nav.music-title:hover {
+  background: none;
+}
+ul.list-v.rightmenu li.music a.nav.volume {
+  width: 100%;
+  padding: 0 8px;
+}
 ul.list-v.rightmenu li.music a.nav.volume:hover {
   background: transparent;
 }
 ul.list-v.rightmenu li.music a.nav.volume .aplayer-volume-bar {
-  margin: 8px 0;
+  margin: 4px 0 8px;
   position: relative;
   height: 8px;
-  width: 120px;
+  width: 100%;
   background: #ededed;
-  border-radius: 8px;
+  border-radius: 36px;
   overflow: hidden;
   transition: all 0.28s ease;
   -moz-transition: all 0.28s ease;
   -webkit-transition: all 0.28s ease;
   -o-transition: all 0.28s ease;
 }
+ul.list-v.rightmenu li.music a.nav.volume .aplayer-volume-bar i.left,
+ul.list-v.rightmenu li.music a.nav.volume .aplayer-volume-bar i.right {
+  color: #696969;
+  position: absolute;
+  top: 0;
+  width: 36px;
+  transition: all 0.28s ease;
+  -moz-transition: all 0.28s ease;
+  -webkit-transition: all 0.28s ease;
+  -o-transition: all 0.28s ease;
+  opacity: 0;
+  transform: scale(0.5) translateY(-26px);
+}
+ul.list-v.rightmenu li.music a.nav.volume .aplayer-volume-bar i.left {
+  left: 0;
+}
+ul.list-v.rightmenu li.music a.nav.volume .aplayer-volume-bar i.right {
+  right: 0;
+}
 ul.list-v.rightmenu li.music a.nav.volume .aplayer-volume-bar:hover {
-  height: 16px;
+  height: 34px;
+}
+ul.list-v.rightmenu li.music a.nav.volume .aplayer-volume-bar:hover i {
+  opacity: 1;
+  transform: scale(1) translateY(0);
 }
 ul.list-v.rightmenu li.music a.nav.volume .aplayer-volume-bar .aplayer-volume {
   background: #44d7b6;
@@ -6047,7 +6101,7 @@ ul.list-v.rightmenu li.music a.nav.volume .aplayer-volume-bar .aplayer-volume {
   max-width: 500px;
   border-radius: 4px;
   color: #444;
-  font-family: UbuntuMono, "PingFang SC", "Microsoft YaHei", Helvetica, Arial, Menlo, Monaco, monospace, sans-serif;
+  font-family: "Varela Round", UbuntuMono, "PingFang SC", "Microsoft YaHei", Helvetica, Arial, Menlo, Monaco, monospace, sans-serif;
 }
 .aplayer .aplayer-list {
   text-align: left;
@@ -6196,9 +6250,6 @@ pre > span {
 a {
   cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/pointer.png"), pointer;
 }
-a p {
-  cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/pointer.png"), pointer;
-}
 a:not([href]) {
   cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/left_ptr.png"), default;
 }
@@ -6215,11 +6266,11 @@ button[disabled],
 html input[disabled] {
   cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/left_ptr.png"), default;
 }
-scrollbar::-webkit-scrollbar-thumb {
+table::-webkit-scrollbar-thumb {
   cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/pointer.png"), pointer;
 }
-.article kbd:hover {
-  cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/left_ptr.png"), default;
+scrollbar::-webkit-scrollbar-thumb {
+  cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/pointer.png"), pointer;
 }
 .article .widget {
   cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/left_ptr.png"), default;
@@ -6245,13 +6296,10 @@ span.btn a:not([href]) {
 article .checkbox input {
   cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/pointer.png"), pointer;
 }
-div.dropmenu {
-  cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/left_ptr.png"), default;
-}
 details summary {
   cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/pointer.png"), pointer;
 }
-details summary p {
+.article a.link-card {
   cursor: url("https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/pointer.png"), pointer;
 }
 div.tabs ul.nav-tabs li.tab a {

@@ -48,7 +48,7 @@
   
 
   
-    <link rel="shortcut icon" type="image/x-icon" href="https://7bu.top/2020/07/25/4daa6e0b0072b.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="https://cdn.jsdelivr.net/gh/lusuzi/CDN/favicon.ico">
   
 
   
@@ -147,7 +147,7 @@
         
         <a class="title flat-box" target="_self" href="/">
           
-            <img no-lazy class="logo" src="https://7bu.top/2020/07/25/c282b37e8903f.png">
+            <img no-lazy class="logo" src="https://cdn.jsdelivr.net/gh/lusuzi/CDN/logo.png">
           
           
           
@@ -847,7 +847,7 @@
   <div id="pjax-ispage">false</div>
   <div id="pjax-pageTitle"></div>
   <div id="pjax-enable-cover">true</div>
-  <div id="pjax-permalink">http://lusuzi.github.io/works/item1/index.html</div>
+  <div id="pjax-permalink">https://lusuzi.github.io/works/item1/index.html</div>
   
   <div id="valine-path">none</div>
   <div id="valine-placeholder">none</div>
@@ -885,7 +885,7 @@
   
 
   
-    <article id="page" class="post white-box reveal blur article-type-page" itemscope itemprop="blogPost">
+    <article id="page" class="post white-box reveal shadow article-type-page" itemscope itemprop="blogPost">
       
 
 
@@ -1062,6 +1062,16 @@
         
           
     <li>
+      <a class="vlts-menu fix-cursor-default" href="/" id="home">
+        <i class="fa fa-home fa-fw"></i> 返回首页
+      </a>
+    </li>
+  
+        
+      
+        
+          
+    <li>
       <a class="vlts-menu fix-cursor-default" href="/archives/" id="archives">
         <i class="fas fa-list fa-fw"></i> 时间之轴
       </a>
@@ -1145,6 +1155,7 @@
         // 如果有aplayer，初始化一下
       	try {
       		checkAPlayer();
+          updateTitle();
       	} catch (error) {
       		console.log(error);
       	}

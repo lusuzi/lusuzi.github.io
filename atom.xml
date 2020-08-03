@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>LuSuZi&#39;s blog</title>
-  <icon>http://lusuzi.github.io/icon.png</icon>
+  <icon>https://lusuzi.github.io/icon.png</icon>
   <subtitle>鹿苏子</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://lusuzi.github.io/"/>
-  <updated>2020-08-01T03:58:53.506Z</updated>
-  <id>http://lusuzi.github.io/</id>
+  <link href="https://lusuzi.github.io/"/>
+  <updated>2020-08-03T05:41:46.929Z</updated>
+  <id>https://lusuzi.github.io/</id>
   
   <author>
     <name>鹿苏子</name>
@@ -17,9 +17,53 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>《怎样解题》读书笔记</title>
+    <link href="https://lusuzi.github.io/article/ce3b3e2.html"/>
+    <id>https://lusuzi.github.io/article/ce3b3e2.html</id>
+    <published>2020-08-03T04:34:01.000Z</published>
+    <updated>2020-08-03T05:41:46.929Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="读书笔记" scheme="https://lusuzi.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="数学" scheme="https://lusuzi.github.io/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+      <category term="方法" scheme="https://lusuzi.github.io/tags/%E6%96%B9%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>区块链投资日记（1）</title>
+    <link href="https://lusuzi.github.io/article/d6505d8b.html"/>
+    <id>https://lusuzi.github.io/article/d6505d8b.html</id>
+    <published>2020-08-02T01:56:40.000Z</published>
+    <updated>2020-08-03T11:19:16.148Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;币市这周累计涨幅普遍高达百分之好几十，而在今天（8月2日）中午突然出现急促的较大回撤。回撤是意料之中的，但是如此猛烈（最高比例达到20%~30%，时间几分钟）却是让人震惊的。这次回撤后，我对我的持仓做了一点调整，而巴菲特老爷子投资前会经过“纸上的思考”，这能让人更加冷静和有根据，因此我也打算将我投资中的操作与思考写下来，系列名称定为《区块链投资日记》。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="投资日记" scheme="https://lusuzi.github.io/categories/%E6%8A%95%E8%B5%84%E6%97%A5%E8%AE%B0/"/>
+    
+    
+      <category term="区块链" scheme="https://lusuzi.github.io/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
+    
+      <category term="日记" scheme="https://lusuzi.github.io/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
     <title>端到端加密聊天软件Signal</title>
-    <link href="http://lusuzi.github.io/article/b318b8fe.html"/>
-    <id>http://lusuzi.github.io/article/b318b8fe.html</id>
+    <link href="https://lusuzi.github.io/article/b318b8fe.html"/>
+    <id>https://lusuzi.github.io/article/b318b8fe.html</id>
     <published>2020-08-01T00:22:43.000Z</published>
     <updated>2020-08-01T03:58:53.506Z</updated>
     
@@ -30,23 +74,23 @@
     </summary>
     
     
-      <category term="计算机" scheme="http://lusuzi.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+      <category term="计算机" scheme="https://lusuzi.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
-      <category term="工具" scheme="http://lusuzi.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E5%B7%A5%E5%85%B7/"/>
+      <category term="工具" scheme="https://lusuzi.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E5%B7%A5%E5%85%B7/"/>
     
     
-      <category term="微信" scheme="http://lusuzi.github.io/tags/%E5%BE%AE%E4%BF%A1/"/>
+      <category term="微信" scheme="https://lusuzi.github.io/tags/%E5%BE%AE%E4%BF%A1/"/>
     
-      <category term="安全" scheme="http://lusuzi.github.io/tags/%E5%AE%89%E5%85%A8/"/>
+      <category term="安全" scheme="https://lusuzi.github.io/tags/%E5%AE%89%E5%85%A8/"/>
     
-      <category term="隐私" scheme="http://lusuzi.github.io/tags/%E9%9A%90%E7%A7%81/"/>
+      <category term="隐私" scheme="https://lusuzi.github.io/tags/%E9%9A%90%E7%A7%81/"/>
     
   </entry>
   
   <entry>
     <title>比特币价格很有可能受Tether公司的USDT操控</title>
-    <link href="http://lusuzi.github.io/article/bee0f638.html"/>
-    <id>http://lusuzi.github.io/article/bee0f638.html</id>
+    <link href="https://lusuzi.github.io/article/bee0f638.html"/>
+    <id>https://lusuzi.github.io/article/bee0f638.html</id>
     <published>2020-07-31T05:38:36.000Z</published>
     <updated>2020-07-31T06:57:12.119Z</updated>
     
@@ -57,17 +101,17 @@
     </summary>
     
     
-      <category term="数据分析" scheme="http://lusuzi.github.io/categories/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
+      <category term="数据分析" scheme="https://lusuzi.github.io/categories/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
     
     
-      <category term="区块链" scheme="http://lusuzi.github.io/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
+      <category term="区块链" scheme="https://lusuzi.github.io/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
     
   </entry>
   
   <entry>
     <title>一台电脑用多个Github部署多个Hexo博客</title>
-    <link href="http://lusuzi.github.io/article/8e989db0.html"/>
-    <id>http://lusuzi.github.io/article/8e989db0.html</id>
+    <link href="https://lusuzi.github.io/article/8e989db0.html"/>
+    <id>https://lusuzi.github.io/article/8e989db0.html</id>
     <published>2020-07-27T10:12:12.000Z</published>
     <updated>2020-07-27T15:17:13.396Z</updated>
     
@@ -78,21 +122,21 @@
     </summary>
     
     
-      <category term="计算机" scheme="http://lusuzi.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+      <category term="计算机" scheme="https://lusuzi.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
-      <category term="工具" scheme="http://lusuzi.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E5%B7%A5%E5%85%B7/"/>
+      <category term="工具" scheme="https://lusuzi.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E5%B7%A5%E5%85%B7/"/>
     
     
-      <category term="git" scheme="http://lusuzi.github.io/tags/git/"/>
+      <category term="git" scheme="https://lusuzi.github.io/tags/git/"/>
     
-      <category term="hexo" scheme="http://lusuzi.github.io/tags/hexo/"/>
+      <category term="hexo" scheme="https://lusuzi.github.io/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://lusuzi.github.io/article/4a17b156.html"/>
-    <id>http://lusuzi.github.io/article/4a17b156.html</id>
+    <link href="https://lusuzi.github.io/article/4a17b156.html"/>
+    <id>https://lusuzi.github.io/article/4a17b156.html</id>
     <published>2020-07-27T07:24:38.310Z</published>
     <updated>2020-07-28T00:35:34.553Z</updated>
     

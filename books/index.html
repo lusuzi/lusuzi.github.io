@@ -48,7 +48,7 @@
   
 
   
-    <link rel="shortcut icon" type="image/x-icon" href="https://7bu.top/2020/07/25/4daa6e0b0072b.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="https://cdn.jsdelivr.net/gh/lusuzi/CDN/favicon.ico">
   
 
   
@@ -147,7 +147,7 @@
         
         <a class="title flat-box" target="_self" href="/">
           
-            <img no-lazy class="logo" src="https://7bu.top/2020/07/25/c282b37e8903f.png">
+            <img no-lazy class="logo" src="https://cdn.jsdelivr.net/gh/lusuzi/CDN/logo.png">
           
           
           
@@ -847,7 +847,7 @@
   <div id="pjax-ispage">false</div>
   <div id="pjax-pageTitle"></div>
   <div id="pjax-enable-cover">true</div>
-  <div id="pjax-permalink">http://lusuzi.github.io/books/index.html</div>
+  <div id="pjax-permalink">https://lusuzi.github.io/books/index.html</div>
   
   <div id="valine-path">none</div>
   <div id="valine-placeholder">none</div>
@@ -885,7 +885,7 @@
   
 
   
-    <article id="page" class="post white-box reveal blur article-type-page" itemscope itemprop="blogPost">
+    <article id="page" class="post white-box reveal shadow article-type-page" itemscope itemprop="blogPost">
       
 
 
@@ -909,51 +909,11 @@
           
           
           <center><span class="p red logo large">读</span> <span class="p green logo large">好</span> <span class="p blue logo large">书</span></center>
-<br>
-<div class="dropmenu-wrapper">
-              <div class="dropmenu">
-                <a>人类</a>
-                <ul class="list-v">
-                  <li>
-              <a class="menuitem">
-                <i class=" fas fa-question-circle fa-fw"></i>
-                有疑问？
-              </a>
-              <ul class="list-v">
-                <li>
-                <a class="menuitem" href="/faqs/" title="看 FAQ">
-                  看 FAQ
-                </a>
-              </li>
-<li>
-                <a class="menuitem" target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/volantis-x/volantis-docs/" title="看 本站源码">
-                  看 本站源码
-                </a>
-              </li>
-<li>
-                <a class="menuitem" target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/volantis-x/hexo-theme-volantis/issues/" title="提 Issue">
-                  提 Issue
-                </a>
-              </li>
-              </ul>
-            </li>
-<li>
-                <a class="menuitem" target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/volantis-x/hexo-theme-volantis/" title="脑中魅影">
-                  <i class="fas fa-file-code fa-fw"></i>
-                  脑中魅影
-                </a>
-              </li>
-<li>
-                <a class="menuitem" target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/volantis-x/hexo-theme-volantis/releases/" title="进化心理学">
-                  <i class="fas fa-clipboard-list fa-fw"></i>
-                  进化心理学
-                </a>
-              </li>
-<hr>
-
-                </ul>
+<br><details cyan open><summary> <p>数学</p> </summary>
+              <div class="content">
+              <div class="btns circle center">            <a class="button" href="/article/ce3b3e2.html" title="怎样解题"><img src="https://cdn.jsdelivr.net/gh/lusuzi/CDN/loading3.gif" data-original="https://cdn.jsdelivr.net/gh/lusuzi/CDN/images/book1.jpg">怎样解题</a>          </div>
               </div>
-            </div>
+            </details>
 
 
           
@@ -1102,6 +1062,16 @@
         
           
     <li>
+      <a class="vlts-menu fix-cursor-default" href="/" id="home">
+        <i class="fa fa-home fa-fw"></i> 返回首页
+      </a>
+    </li>
+  
+        
+      
+        
+          
+    <li>
       <a class="vlts-menu fix-cursor-default" href="/archives/" id="archives">
         <i class="fas fa-list fa-fw"></i> 时间之轴
       </a>
@@ -1185,6 +1155,7 @@
         // 如果有aplayer，初始化一下
       	try {
       		checkAPlayer();
+          updateTitle();
       	} catch (error) {
       		console.log(error);
       	}
