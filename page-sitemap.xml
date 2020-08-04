@@ -9,7 +9,14 @@
     
     <url>
         <loc>https://lusuzi.github.io/books/</loc>
-        <lastmod>2020-08-03T06:54:25.402Z</lastmod>
+        <lastmod>2020-08-04T03:42:23.361Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://lusuzi.github.io/history/</loc>
+        <lastmod>2020-08-04T03:33:34.254Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -17,13 +24,6 @@
     <url>
         <loc>https://lusuzi.github.io/blogger_said/</loc>
         <lastmod>2020-08-01T13:34:09.188Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://lusuzi.github.io/history/</loc>
-        <lastmod>2020-08-01T03:36:49.117Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
