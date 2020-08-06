@@ -27,7 +27,7 @@
 
   <!-- feed -->
   
-    <link rel="alternate" href="/atom.xml" title="LuSuZi's blog" type="application/atom+xml">
+    <link rel="alternate" href="/atom.xml" title="LuSuZi's blog">
   
 
   <!-- import meta -->
@@ -942,7 +942,7 @@
   <div class="new-meta-item wordcount">
     <a class="notlink">
       <i class="fas fa-keyboard fa-fw" aria-hidden="true"></i>
-      <p>字数：998字</p>
+      <p>字数：989字</p>
     </a>
   </div>
   <div class="new-meta-item readtime">
@@ -1015,7 +1015,7 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> ~</span><br></pre></td></tr></table></figure>
 
 <p>生成密钥：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">&quot;账号B对应邮箱&quot;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">"账号B对应邮箱"</span></span><br></pre></td></tr></table></figure>
 
 <p> 回车后出现： </p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Generating public/private rsa key pair.  </span><br><span class="line"> Enter file <span class="keyword">in</span> <span class="built_in">which</span> to save the key (xxx/.ssh/id_rsa):</span><br></pre></td></tr></table></figure>
@@ -1033,21 +1033,21 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">touch config</span><br></pre></td></tr></table></figure>
 
 <p>打开config，添加第二个账号的配置（如果是新生成的config则两个账号一起配置）：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#第一个账号，默认使用的账号，不用做任何更改（如果没有则创建）</span></span><br><span class="line">Host github.com</span><br><span class="line"> HostName github.com</span><br><span class="line"> User 第一个用户名</span><br><span class="line"> IdentityFile ~/.ssh/id_rsa</span><br><span class="line"></span><br><span class="line"><span class="comment">#第二个新账号，以任意的&quot;xxx&quot;为前缀，即对Host作了区分</span></span><br><span class="line">Host xxx.github.com</span><br><span class="line"> HostName github.com</span><br><span class="line"> User 第二个用户名</span><br><span class="line"> IdentityFile ~/.ssh/新密钥名称</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#第一个账号，默认使用的账号，不用做任何更改（如果没有则创建）</span></span><br><span class="line">Host github.com</span><br><span class="line"> HostName github.com</span><br><span class="line"> User 第一个用户名</span><br><span class="line"> IdentityFile ~/.ssh/id_rsa</span><br><span class="line"></span><br><span class="line"><span class="comment">#第二个新账号，以任意的"xxx"为前缀，即对Host作了区分</span></span><br><span class="line">Host xxx.github.com</span><br><span class="line"> HostName github.com</span><br><span class="line"> User 第二个用户名</span><br><span class="line"> IdentityFile ~/.ssh/新密钥名称</span><br></pre></td></tr></table></figure>
 
 <h3 id="四、部署与测试"><a href="#四、部署与测试" class="headerlink" title="四、部署与测试"></a>四、部署与测试</h3><p>将对应公钥添加至Github账号中，</p>
 <p>远程测试：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh –T xxx.github.com</span><br></pre></td></tr></table></figure>
 
 <p>出行以下信息说明配置成功：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Hi xxx! You<span class="string">&#x27;ve successfully authenticated, but GitHub does not provide shell access.</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Hi xxx! You<span class="string">'ve successfully authenticated, but GitHub does not provide shell access.</span></span><br></pre></td></tr></table></figure>
 
 <p>如果只作以上步骤，会发现给第二个账号用hexo-deploy-git时，显示的是第一个账号push的代码，因为第一个账号过去设置了全局用户名与邮箱配置，在<code>/.deploy_git/.git</code>本地默认采用作为全局的第一个账号。因此需要取消全局用户名/邮箱配置，在各<code>/.deploy_git/</code>本地单独设置用户名与邮箱。</p>
 <h3 id="五、单独设置用户名与邮箱"><a href="#五、单独设置用户名与邮箱" class="headerlink" title="五、单独设置用户名与邮箱"></a>五、单独设置用户名与邮箱</h3><p>先取消全局用户名与邮箱配置：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global --<span class="built_in">unset</span> user.name</span><br><span class="line">git config --global --<span class="built_in">unset</span> user.email</span><br></pre></td></tr></table></figure>
 
 <p>分别进入各<code>/.deploy_git/</code>本地单独设置用户名与邮箱： </p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config user.name <span class="string">&quot;用户名&quot;</span></span><br><span class="line">git config user.email <span class="string">&quot;邮箱&quot;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config user.name <span class="string">"用户名"</span></span><br><span class="line">git config user.email <span class="string">"邮箱"</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="六、第二个账号使用方法"><a href="#六、第二个账号使用方法" class="headerlink" title="六、第二个账号使用方法"></a>六、第二个账号使用方法</h3><p>原来的用法：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> git@github.com: 账号用户名/learngit.git</span><br></pre></td></tr></table></figure>
@@ -1151,7 +1151,7 @@
   <div class="-mob-share-list share-body">
     
       
-        <a class="-mob-share-qq" title rel="external nofollow noopener noreferrer" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://lusuzi.github.io/article/8e989db0.html&title=一台电脑用多个Github部署多个Hexo博客 - LuSuZi's blog&summary=如果需要在一台电脑部署多个Hexo博客，可以在同一个Github账号下创建多个Pages，但那样只有一个用户名.github.io这样的域名，其他的为子域名用户名.github.io/xxx。也可以多申请几个Github账号，每个账号建立一个Hexo博客，彼此独立。以下介绍如何实施后者。">
+        <a class="-mob-share-qq" title rel="external nofollow noopener noreferrer" href="http://connect.qq.com/widget/shareqq/index.html?url=https://lusuzi.github.io/article/8e989db0.html&title=一台电脑用多个Github部署多个Hexo博客 - LuSuZi's blog&summary=如果需要在一台电脑部署多个Hexo博客，可以在同一个Github账号下创建多个Pages，但那样只有一个用户名.github.io这样的域名，其他的为子域名用户名.github.io/xxx。也可以多申请几个Github账号，每个账号建立一个Hexo博客，彼此独立。以下介绍如何实施后者。" target="_blank">
           
             <img src="https://cdn.jsdelivr.net/gh/lusuzi/CDN/loading.gif" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/logo/128/qq.png">
           
@@ -1159,7 +1159,7 @@
       
     
       
-        <a class="-mob-share-qzone" title rel="external nofollow noopener noreferrer" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://lusuzi.github.io/article/8e989db0.html&title=一台电脑用多个Github部署多个Hexo博客 - LuSuZi's blog&summary=如果需要在一台电脑部署多个Hexo博客，可以在同一个Github账号下创建多个Pages，但那样只有一个用户名.github.io这样的域名，其他的为子域名用户名.github.io/xxx。也可以多申请几个Github账号，每个账号建立一个Hexo博客，彼此独立。以下介绍如何实施后者。">
+        <a class="-mob-share-qzone" title rel="external nofollow noopener noreferrer" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://lusuzi.github.io/article/8e989db0.html&title=一台电脑用多个Github部署多个Hexo博客 - LuSuZi's blog&summary=如果需要在一台电脑部署多个Hexo博客，可以在同一个Github账号下创建多个Pages，但那样只有一个用户名.github.io这样的域名，其他的为子域名用户名.github.io/xxx。也可以多申请几个Github账号，每个账号建立一个Hexo博客，彼此独立。以下介绍如何实施后者。" target="_blank">
           
             <img src="https://cdn.jsdelivr.net/gh/lusuzi/CDN/loading.gif" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/logo/128/qzone.png">
           
@@ -1167,7 +1167,7 @@
       
     
       
-        <a class="-mob-share-weibo" title rel="external nofollow noopener noreferrer" target="_blank" href="http://service.weibo.com/share/share.php?url=https://lusuzi.github.io/article/8e989db0.html&title=一台电脑用多个Github部署多个Hexo博客 - LuSuZi's blog&summary=如果需要在一台电脑部署多个Hexo博客，可以在同一个Github账号下创建多个Pages，但那样只有一个用户名.github.io这样的域名，其他的为子域名用户名.github.io/xxx。也可以多申请几个Github账号，每个账号建立一个Hexo博客，彼此独立。以下介绍如何实施后者。">
+        <a class="-mob-share-weibo" title rel="external nofollow noopener noreferrer" href="http://service.weibo.com/share/share.php?url=https://lusuzi.github.io/article/8e989db0.html&title=一台电脑用多个Github部署多个Hexo博客 - LuSuZi's blog&summary=如果需要在一台电脑部署多个Hexo博客，可以在同一个Github账号下创建多个Pages，但那样只有一个用户名.github.io这样的域名，其他的为子域名用户名.github.io/xxx。也可以多申请几个Github账号，每个账号建立一个Hexo博客，彼此独立。以下介绍如何实施后者。" target="_blank">
           
             <img src="https://cdn.jsdelivr.net/gh/lusuzi/CDN/loading.gif" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/logo/128/weibo.png">
           
@@ -1268,7 +1268,7 @@
         
           <li><a class="flat-box child" title="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E5%B7%A5%E5%85%B7/" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E5%B7%A5%E5%85%B7/" id="categoriesE8AEA1E7AE97E69CBAE5B7A5E585B7"><div class="name">工具</div><div class="badge">(2)</div></a></li>
         
-          <li><a class="flat-box" title="/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" href="/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" id="categoriesE8AFBBE4B9A6E7AC94E8AEB0"><div class="name">读书笔记</div><div class="badge">(2)</div></a></li>
+          <li><a class="flat-box" title="/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" href="/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" id="categoriesE8AFBBE4B9A6E7AC94E8AEB0"><div class="name">读书笔记</div><div class="badge">(4)</div></a></li>
         
       </ul>
     </div>
@@ -1293,7 +1293,7 @@
 
 
     <div class="content">
-        <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E7%94%9F%E6%88%90SSH-key"><span class="toc-text">一、生成SSH key</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E6%B7%BB%E5%8A%A0%E7%A7%81%E9%92%A5"><span class="toc-text">二、添加私钥</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E9%85%8D%E7%BD%AEconfig%E6%96%87%E4%BB%B6"><span class="toc-text">三、配置config文件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E9%83%A8%E7%BD%B2%E4%B8%8E%E6%B5%8B%E8%AF%95"><span class="toc-text">四、部署与测试</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%94%E3%80%81%E5%8D%95%E7%8B%AC%E8%AE%BE%E7%BD%AE%E7%94%A8%E6%88%B7%E5%90%8D%E4%B8%8E%E9%82%AE%E7%AE%B1"><span class="toc-text">五、单独设置用户名与邮箱</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%AD%E3%80%81%E7%AC%AC%E4%BA%8C%E4%B8%AA%E8%B4%A6%E5%8F%B7%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95"><span class="toc-text">六、第二个账号使用方法</span></a></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#一、生成SSH-key"><span class="toc-text">一、生成SSH key</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#二、添加私钥"><span class="toc-text">二、添加私钥</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#三、配置config文件"><span class="toc-text">三、配置config文件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#四、部署与测试"><span class="toc-text">四、部署与测试</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#五、单独设置用户名与邮箱"><span class="toc-text">五、单独设置用户名与邮箱</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#六、第二个账号使用方法"><span class="toc-text">六、第二个账号使用方法</span></a></li></ol>
     </div>
   </section>
 
@@ -1315,7 +1315,7 @@
 
 
     <div class="content">
-      <a href="/tags/git/" style="font-size: 14px; color: #999">git</a> <a href="/tags/hexo/" style="font-size: 14px; color: #999">hexo</a> <a href="/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/" style="font-size: 24px; color: #555">区块链</a> <a href="/tags/%E5%AE%89%E5%85%A8/" style="font-size: 14px; color: #999">安全</a> <a href="/tags/%E5%BE%AE%E4%BF%A1/" style="font-size: 14px; color: #999">微信</a> <a href="/tags/%E6%95%B0%E5%AD%A6/" style="font-size: 14px; color: #999">数学</a> <a href="/tags/%E6%96%B9%E6%B3%95/" style="font-size: 24px; color: #555">方法</a> <a href="/tags/%E6%97%A5%E8%AE%B0/" style="font-size: 14px; color: #999">日记</a> <a href="/tags/%E6%BC%94%E8%AE%B2/" style="font-size: 14px; color: #999">演讲</a> <a href="/tags/%E9%9A%90%E7%A7%81/" style="font-size: 14px; color: #999">隐私</a>
+      <a href="/tags/git/" style="font-size: 14px; color: #999">git</a> <a href="/tags/hexo/" style="font-size: 14px; color: #999">hexo</a> <a href="/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/" style="font-size: 24px; color: #555">区块链</a> <a href="/tags/%E5%AE%89%E5%85%A8/" style="font-size: 14px; color: #999">安全</a> <a href="/tags/%E5%BE%AE%E4%BF%A1/" style="font-size: 14px; color: #999">微信</a> <a href="/tags/%E5%BF%83%E7%90%86%E5%AD%A6/" style="font-size: 14px; color: #999">心理学</a> <a href="/tags/%E6%95%B0%E5%AD%A6/" style="font-size: 14px; color: #999">数学</a> <a href="/tags/%E6%96%B9%E6%B3%95/" style="font-size: 24px; color: #555">方法</a> <a href="/tags/%E6%97%A5%E8%AE%B0/" style="font-size: 14px; color: #999">日记</a> <a href="/tags/%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86/" style="font-size: 14px; color: #999">时间管理</a> <a href="/tags/%E6%BC%94%E8%AE%B2/" style="font-size: 14px; color: #999">演讲</a> <a href="/tags/%E7%94%9F%E6%B4%BB/" style="font-size: 24px; color: #555">生活</a> <a href="/tags/%E9%9A%90%E7%A7%81/" style="font-size: 14px; color: #999">隐私</a>
     </div>
   </section>
 
@@ -1330,7 +1330,7 @@
   
   <header>
     
-      <a target="_blank" rel="external nofollow noopener noreferrer" href="https://lusuzi.github.com"><i class="fas fa-map-signs fa-fw" aria-hidden="true"></i><span class="name">站内导航</span></a>
+      <a href="https://lusuzi.github.com" target="_blank" rel="external nofollow noopener noreferrer"><i class="fas fa-map-signs fa-fw" aria-hidden="true"></i><span class="name">站内导航</span></a>
     
   </header>
 
@@ -1443,7 +1443,7 @@
       
     
       
-        <div><p>博客内容遵循 <a target="_blank" rel="external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议</a></p>
+        <div><p>博客内容遵循 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="external nofollow noopener noreferrer">署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议</a></p>
 </div>
       
     

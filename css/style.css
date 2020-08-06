@@ -23,6 +23,12 @@
   font-style: 'normal';
 }
 @font-face {
+  font-family: 'Monaco';
+  src: url("https://cdn.jsdelivr.net/gh/xaoxuu/cdn-fonts/Monaco/Monaco.ttf");
+  font-weight: 'normal';
+  font-style: 'normal';
+}
+@font-face {
   font-family: 'Varela Round';
   src: url("https://cdn.jsdelivr.net/gh/xaoxuu/cdn-fonts/VarelaRound/VarelaRound-Regular.ttf");
   font-weight: 'normal';
@@ -860,7 +866,7 @@ details {
   margin: 0.4rem 0;
   border-radius: 4px;
   background: #fff;
-  font-size: 0.9375rem;
+  font-size: 1rem;
   transition: all 0.28s ease;
   -moz-transition: all 0.28s ease;
   -webkit-transition: all 0.28s ease;
@@ -1458,7 +1464,7 @@ div.tabs {
   border-radius: 4px;
   background: #fff;
   border: 1px solid rgba(85,85,85,0.2);
-  font-size: 0.9375rem;
+  font-size: 1rem;
 }
 div.tabs .highlight,
 div.tabs p,
@@ -3096,6 +3102,14 @@ div.gallery.stretch>p img {
   display: inline;
   margin: auto;
 }
+.article b,
+.article strong {
+  color: #6392ce;
+}
+.article em {
+  color: #f4606c;
+  font-style: normal;
+}
 .article a {
   word-break: break-word;
 }
@@ -3138,16 +3152,29 @@ div.gallery.stretch>p img {
 .article h2 {
   text-align: left;
   color: #444;
+  padding-bottom: 0.2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  background: linear-gradient(to bottom, transparent 60%, rgba(189,202,219,0.3) 0) no-repeat;
+  display: initial;
   margin-top: 48px;
 }
 .article h3 {
   text-align: left;
   color: #444;
+  padding-bottom: 0.2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  background: linear-gradient(to bottom, transparent 60%, rgba(189,202,219,0.3) 0) no-repeat;
+  display: initial;
   margin-top: 24px;
 }
 .article h4 {
   text-align: left;
   color: #444;
+  padding-bottom: 0.2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
   margin-top: 16px;
 }
 .article h5 {
@@ -3227,7 +3254,7 @@ div.gallery.stretch>p img {
 }
 .article ul,
 .article ol {
-  font-size: 0.9375rem;
+  font-size: 1rem;
   list-style: initial;
   padding-left: 8px;
   margin-left: 16px;
@@ -3290,7 +3317,9 @@ div.gallery.stretch>p img {
 .article blockquote {
   position: relative;
   width: 100%;
-  padding: 16.1px 16px 16px 16px;
+  background: none;
+  padding: 4.899999999999999px 8px 4.8px 11.2px;
+  border-radius: 0;
   transition: all 0.28s ease;
   -moz-transition: all 0.28s ease;
   -webkit-transition: all 0.28s ease;
@@ -3302,7 +3331,7 @@ div.gallery.stretch>p img {
 .article blockquote ol {
   text-align: left;
   word-wrap: normal;
-  font-size: 0.9375rem;
+  font-size: 1rem;
   margin-top: 0.4rem;
   margin-bottom: 0.4rem;
 }
