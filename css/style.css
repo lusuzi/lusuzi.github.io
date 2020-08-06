@@ -3102,6 +3102,11 @@ div.gallery.stretch>p img {
   display: inline;
   margin: auto;
 }
+.article hr {
+  border: 1px solid #44d7b6;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 .article b,
 .article strong {
   color: #6392ce;
@@ -3147,7 +3152,7 @@ div.gallery.stretch>p img {
 .article h1 {
   text-align: left;
   color: #444;
-  margin-top: 48px;
+  margin-top: 16px;
 }
 .article h2 {
   text-align: left;
@@ -3157,7 +3162,7 @@ div.gallery.stretch>p img {
   font-weight: 700;
   background: linear-gradient(to bottom, transparent 60%, rgba(189,202,219,0.3) 0) no-repeat;
   display: initial;
-  margin-top: 48px;
+  margin-top: 16px;
 }
 .article h3 {
   text-align: left;
@@ -3167,7 +3172,7 @@ div.gallery.stretch>p img {
   font-weight: 700;
   background: linear-gradient(to bottom, transparent 60%, rgba(189,202,219,0.3) 0) no-repeat;
   display: initial;
-  margin-top: 24px;
+  margin-top: 16px;
 }
 .article h4 {
   text-align: left;
@@ -3548,7 +3553,7 @@ div.gallery.stretch>p img {
 }
 .article .article-entry> h1:before,
 .article .article-entry> h2:before {
-  margin-top: -32px;
+  margin-top: -64px;
 }
 .article .article-entry> h3,
 .article .article-entry> h4,
@@ -3557,7 +3562,7 @@ div.gallery.stretch>p img {
   margin-bottom: 0.6rem;
 }
 .article .article-entry> h3:before {
-  margin-top: -56px;
+  margin-top: -64px;
 }
 .article .article-entry> h4:before {
   margin-top: -64px;
