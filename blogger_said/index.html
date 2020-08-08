@@ -16,7 +16,7 @@
 
   <!-- 页面元数据 -->
   
-  <title>刷新才有... - LuSuZi&#39;s blog</title>
+  <title>LuSuZi&#39;s blog</title>
   
 
   
@@ -892,10 +892,14 @@
   <section class="meta">
     
       
-        
-          <h1 class="title"><p class="p center h1">刷新才有...</p></h1><br>
-        
       
+      <div class="meta" id="header-meta">
+        
+        <div class="new-meta-box">
+          
+        </div>
+        
+      </div>
     
   </section>
 
@@ -1557,7 +1561,7 @@
       try {
         var currentUrl = window.location.pathname;
         var targetUrl = e.triggerElement.href;
-        var banUrl = [""];
+        var banUrl = ["/blogger_said/"];
         if (banUrl[0] != "") {
           banUrl.forEach(item => {
             if(currentUrl.indexOf(item) != -1 || targetUrl.indexOf(item) != -1) {
