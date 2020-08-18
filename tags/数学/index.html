@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head hexo-theme="https://volantis.js.org/#3.0-beta2">
+<head hexo-theme="https://github.com/volantis-x/hexo-theme-volantis/releases/tag/3.0.0">
   <meta charset="utf-8">
   <!-- SEO相关 -->
   
@@ -38,10 +38,21 @@
   
 
   <!-- link -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13/css/all.min.css">
   
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13/css/all.min.css">
+
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/l-lin/font-awesome-animation/dist/font-awesome-animation.min.css">
+
+  
+  
+    
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
 
+  
 
   
     
@@ -87,9 +98,7 @@
   
 </head>
 
-
-<body oncontextmenu="return popMenu(event);">
-
+<body>
   
   
   
@@ -139,7 +148,7 @@
   <div class="wrapper">
     <div class="nav-sub">
       <p class="title"></p>
-      <ul class="switcher nav-list-h" id="pjax-header-nav-list">
+      <ul class="switcher nav-list-h m-phone" id="pjax-header-nav-list">
         <li><a class="s-comment fas fa-comments fa-fw" target="_self" href="javascript:void(0)"></a></li>
         
           <li><a class="s-toc fas fa-list fa-fw" target="_self" href="javascript:void(0)"></a></li>
@@ -159,14 +168,14 @@
       
 
 			<div class="menu navigation">
-				<ul class="nav-list-h">
+				<ul class="nav-list-h m-pc">
           
           
           
             
             
               <li>
-                <a class="menuitem flat-box" href="/" id="home">
+                <a class="menuitem flat-box faa-parent animated-hover" href="/" id="home">
                   <i class="fas fa-home fa-fw"></i>首页
                 </a>
                 
@@ -177,7 +186,7 @@
             
             
               <li>
-                <a class="menuitem flat-box">
+                <a class="menuitem flat-box faa-parent animated-hover">
                   <i class="fas fa-code-branch fa-fw"></i>索引
                 </a>
                 
@@ -186,7 +195,7 @@
                       
             
               <li>
-                <a class="menuitem flat-box" href="/archives/" id="archives">
+                <a class="menuitem flat-box faa-parent animated-hover" href="/archives/" id="archives">
                   <i class="fas fa-archive fa-fw"></i>归档
                 </a>
                 
@@ -197,7 +206,7 @@
                       
             
               <li>
-                <a class="menuitem flat-box" href="/categories/" id="categories">
+                <a class="menuitem flat-box faa-parent animated-hover" href="/categories/" id="categories">
                   <i class="fas fa-folder-open fa-fw"></i>分类
                 </a>
                 
@@ -208,7 +217,7 @@
                       
             
               <li>
-                <a class="menuitem flat-box" href="/tags/" id="tags">
+                <a class="menuitem flat-box faa-parent animated-hover" href="/tags/" id="tags">
                   <i class="fas fa-tags fa-fw"></i>标签
                 </a>
                 
@@ -225,7 +234,7 @@
             
             
               <li>
-                <a class="menuitem flat-box">
+                <a class="menuitem flat-box faa-parent animated-hover">
                   <i class="fa fa-cube fa-fw"></i>作品
                 </a>
                 
@@ -234,7 +243,7 @@
                       
             
               <li>
-                <a class="menuitem flat-box" href="/works/item1" id="worksitem1">
+                <a class="menuitem flat-box faa-parent animated-hover" href="/works/item1" id="worksitem1">
                   项目1
                 </a>
                 
@@ -245,7 +254,7 @@
                       
             
               <li>
-                <a class="menuitem flat-box" href="/works/" id="works">
+                <a class="menuitem flat-box faa-parent animated-hover" href="/works/" id="works">
                   <i class="fas fa-chevron-right fa-fw"></i>所有作品
                 </a>
                 
@@ -262,7 +271,7 @@
             
             
               <li>
-                <a class="menuitem flat-box">
+                <a class="menuitem flat-box faa-parent animated-hover">
                   <i class="fa fa-heart fa-fw"></i>娱乐
                 </a>
                 
@@ -271,7 +280,7 @@
                       
             
               <li>
-                <a class="menuitem flat-box" href="/books/" id="books">
+                <a class="menuitem flat-box faa-parent animated-hover" href="/books/" id="books">
                   <i class="fa fa-book fa-fw"></i>书籍
                 </a>
                 
@@ -282,7 +291,7 @@
                       
             
               <li>
-                <a class="menuitem flat-box" href="/photos/" id="photos">
+                <a class="menuitem flat-box faa-parent animated-hover" href="/photos/" id="photos">
                   <i class="fa fa-image fa-fw"></i>相册
                 </a>
                 
@@ -293,7 +302,7 @@
                       
             
               <li>
-                <a class="menuitem flat-box" href="/recommend/" id="recommend">
+                <a class="menuitem flat-box faa-parent animated-hover" href="/recommend/" id="recommend">
                   <i class="fa fa-thumbs-up fa-fw"></i>推荐
                 </a>
                 
@@ -336,7 +345,7 @@
             
             
               <li>
-                <a class="menuitem flat-box">
+                <a class="menuitem flat-box faa-parent animated-hover">
                   <i class="fa fa-bars fa-fw fa-fw"></i>小工具
                 </a>
                 
@@ -345,7 +354,7 @@
                       
             
               <li>
-                <a class="menuitem flat-box" href="/atom.xml" id="atomxml">
+                <a class="menuitem flat-box faa-parent animated-hover" href="/atom.xml" id="atomxml">
                   <i class="fas fa-rss fa-fw"></i>RSS订阅
                 </a>
                 
@@ -356,7 +365,7 @@
                       
             
               <li>
-                <a class="menuitem flat-box" href="https://tinypng.com/" id="https:tinypngcom" rel="external nofollow noopener noreferrer" target="_blank">
+                <a class="menuitem flat-box faa-parent animated-hover" href="https://tinypng.com/" id="https:tinypngcom" rel="external nofollow noopener noreferrer" target="_blank">
                   <i class="fa fa-compress fa-fw"></i>图片压缩
                 </a>
                 
@@ -367,7 +376,7 @@
                       
             
               <li>
-                <a class="menuitem flat-box" href="https://travellings.now.sh/" id="https:travellingsnowsh" rel="external nofollow noopener noreferrer" target="_blank">
+                <a class="menuitem flat-box faa-parent animated-hover" href="https://travellings.now.sh/" id="https:travellingsnowsh" rel="external nofollow noopener noreferrer" target="_blank">
                   <i class="fa fa-binoculars fa-fw"></i>开往他站
                 </a>
                 
@@ -384,7 +393,7 @@
                       
             
               <li>
-                <a class="menuitem flat-box" href="https://leancloud.app/" id="https:leancloudapp" rel="external nofollow noopener noreferrer" target="_blank">
+                <a class="menuitem flat-box faa-parent animated-hover" href="https://leancloud.app/" id="https:leancloudapp" rel="external nofollow noopener noreferrer" target="_blank">
                   <i class="far fa-comments fa-fw"></i>评论管理
                 </a>
                 
@@ -395,7 +404,7 @@
                       
             
               <li>
-                <a class="menuitem flat-box" href="https://newbees.coding.net/" id="https:newbeescodingnet" rel="external nofollow noopener noreferrer" target="_blank">
+                <a class="menuitem flat-box faa-parent animated-hover" href="https://newbees.coding.net/" id="https:newbeescodingnet" rel="external nofollow noopener noreferrer" target="_blank">
                   <i class="fa fa-edit fa-fw"></i>云端编辑
                 </a>
                 
@@ -406,7 +415,7 @@
                       
             
               <li>
-                <a class="menuitem flat-box" href="https://tongji.baidu.com/web/10000245684/overview/index?siteId=15645714" id="https:tongjibaiducomweb10000245684overviewindex?siteId=15645714" rel="external nofollow noopener noreferrer" target="_blank">
+                <a class="menuitem flat-box faa-parent animated-hover" href="https://tongji.baidu.com/web/10000245684/overview/index?siteId=15645714" id="https:tongjibaiducomweb10000245684overviewindex?siteId=15645714" rel="external nofollow noopener noreferrer" target="_blank">
                   <i class="fa fa-align-left fa-fw"></i>百度统计
                 </a>
                 
@@ -423,7 +432,7 @@
             
             
               <li>
-                <a class="menuitem flat-box">
+                <a class="menuitem flat-box faa-parent animated-hover">
                   <i class="fa fa-ellipsis-v fa-fw fa-fw"></i>更多
                 </a>
                 
@@ -432,7 +441,7 @@
                       
             
               <li>
-                <a class="menuitem flat-box" href="/about/" id="about">
+                <a class="menuitem flat-box faa-parent animated-hover" href="/about/" id="about">
                   <i class="fas fa-info-circle fa-fw"></i>关于
                 </a>
                 
@@ -443,7 +452,7 @@
                       
             
               <li>
-                <a class="menuitem flat-box" href="/friends/" id="friends">
+                <a class="menuitem flat-box faa-parent animated-hover" href="/friends/" id="friends">
                   <i class="fas fa-link fa-fw"></i>友链
                 </a>
                 
@@ -454,7 +463,7 @@
                       
             
               <li>
-                <a class="menuitem flat-box" href="/history/" id="history">
+                <a class="menuitem flat-box faa-parent animated-hover" href="/history/" id="history">
                   <i class="fa fa-history fa-fw"></i>建站史
                 </a>
                 
@@ -471,7 +480,7 @@
                       
             
               <li>
-                <a class="menuitem flat-box" href="/blogger_said/" id="blogger_said">
+                <a class="menuitem flat-box faa-parent animated-hover" href="/blogger_said/" id="blogger_said">
                   <i class="fas fa-comment-dots fa-fw"></i>博主说
                 </a>
                 
@@ -482,7 +491,7 @@
                       
             
               <li>
-                <a class="menuitem flat-box" href="/messages/" id="messages">
+                <a class="menuitem flat-box faa-parent animated-hover" href="/messages/" id="messages">
                   <i class="fa fa-comments fa-fw"></i>留言板
                 </a>
                 
@@ -506,7 +515,7 @@
         </form>
       </div>
 
-			<ul class="switcher nav-list-h">
+			<ul class="switcher nav-list-h m-phone">
 				
 					<li><a class="s-search fas fa-search fa-fw" target="_self" href="javascript:void(0)"></a></li>
 				
@@ -517,7 +526,7 @@
               
             
               <li>
-                <a class="menuitem flat-box" href="/" id="home">
+                <a class="menuitem flat-box faa-parent animated-hover" href="/" id="home">
                   <i class="fas fa-home fa-fw"></i>首页
                 </a>
                 
@@ -528,7 +537,7 @@
               
             
               <li>
-                <a class="menuitem flat-box">
+                <a class="menuitem flat-box faa-parent animated-hover">
                   <i class="fas fa-code-branch fa-fw"></i>索引
                 </a>
                 
@@ -537,7 +546,7 @@
                       
             
               <li>
-                <a class="menuitem flat-box" href="/archives/" id="archives">
+                <a class="menuitem flat-box faa-parent animated-hover" href="/archives/" id="archives">
                   <i class="fas fa-archive fa-fw"></i>归档
                 </a>
                 
@@ -548,7 +557,7 @@
                       
             
               <li>
-                <a class="menuitem flat-box" href="/categories/" id="categories">
+                <a class="menuitem flat-box faa-parent animated-hover" href="/categories/" id="categories">
                   <i class="fas fa-folder-open fa-fw"></i>分类
                 </a>
                 
@@ -559,7 +568,7 @@
                       
             
               <li>
-                <a class="menuitem flat-box" href="/tags/" id="tags">
+                <a class="menuitem flat-box faa-parent animated-hover" href="/tags/" id="tags">
                   <i class="fas fa-tags fa-fw"></i>标签
                 </a>
                 
@@ -576,7 +585,7 @@
               
             
               <li>
-                <a class="menuitem flat-box">
+                <a class="menuitem flat-box faa-parent animated-hover">
                   <i class="fa fa-cube fa-fw"></i>作品
                 </a>
                 
@@ -585,7 +594,7 @@
                       
             
               <li>
-                <a class="menuitem flat-box" href="/works/item1" id="worksitem1">
+                <a class="menuitem flat-box faa-parent animated-hover" href="/works/item1" id="worksitem1">
                   项目1
                 </a>
                 
@@ -596,7 +605,7 @@
                       
             
               <li>
-                <a class="menuitem flat-box" href="/works/" id="works">
+                <a class="menuitem flat-box faa-parent animated-hover" href="/works/" id="works">
                   <i class="fas fa-chevron-right fa-fw"></i>所有作品
                 </a>
                 
@@ -613,7 +622,7 @@
               
             
               <li>
-                <a class="menuitem flat-box">
+                <a class="menuitem flat-box faa-parent animated-hover">
                   <i class="fa fa-heart fa-fw"></i>娱乐
                 </a>
                 
@@ -622,7 +631,7 @@
                       
             
               <li>
-                <a class="menuitem flat-box" href="/books/" id="books">
+                <a class="menuitem flat-box faa-parent animated-hover" href="/books/" id="books">
                   <i class="fa fa-book fa-fw"></i>书籍
                 </a>
                 
@@ -633,7 +642,7 @@
                       
             
               <li>
-                <a class="menuitem flat-box" href="/photos/" id="photos">
+                <a class="menuitem flat-box faa-parent animated-hover" href="/photos/" id="photos">
                   <i class="fa fa-image fa-fw"></i>相册
                 </a>
                 
@@ -644,7 +653,7 @@
                       
             
               <li>
-                <a class="menuitem flat-box" href="/recommend/" id="recommend">
+                <a class="menuitem flat-box faa-parent animated-hover" href="/recommend/" id="recommend">
                   <i class="fa fa-thumbs-up fa-fw"></i>推荐
                 </a>
                 
@@ -667,7 +676,7 @@
               
             
               <li>
-                <a class="menuitem flat-box">
+                <a class="menuitem flat-box faa-parent animated-hover">
                   <i class="fa fa-bars fa-fw fa-fw"></i>小工具
                 </a>
                 
@@ -676,7 +685,7 @@
                       
             
               <li>
-                <a class="menuitem flat-box" href="/atom.xml" id="atomxml">
+                <a class="menuitem flat-box faa-parent animated-hover" href="/atom.xml" id="atomxml">
                   <i class="fas fa-rss fa-fw"></i>RSS订阅
                 </a>
                 
@@ -687,7 +696,7 @@
                       
             
               <li>
-                <a class="menuitem flat-box" href="https://tinypng.com/" id="https:tinypngcom" rel="external nofollow noopener noreferrer" target="_blank">
+                <a class="menuitem flat-box faa-parent animated-hover" href="https://tinypng.com/" id="https:tinypngcom" rel="external nofollow noopener noreferrer" target="_blank">
                   <i class="fa fa-compress fa-fw"></i>图片压缩
                 </a>
                 
@@ -698,7 +707,7 @@
                       
             
               <li>
-                <a class="menuitem flat-box" href="https://travellings.now.sh/" id="https:travellingsnowsh" rel="external nofollow noopener noreferrer" target="_blank">
+                <a class="menuitem flat-box faa-parent animated-hover" href="https://travellings.now.sh/" id="https:travellingsnowsh" rel="external nofollow noopener noreferrer" target="_blank">
                   <i class="fa fa-binoculars fa-fw"></i>开往他站
                 </a>
                 
@@ -715,7 +724,7 @@
                       
             
               <li>
-                <a class="menuitem flat-box" href="https://leancloud.app/" id="https:leancloudapp" rel="external nofollow noopener noreferrer" target="_blank">
+                <a class="menuitem flat-box faa-parent animated-hover" href="https://leancloud.app/" id="https:leancloudapp" rel="external nofollow noopener noreferrer" target="_blank">
                   <i class="far fa-comments fa-fw"></i>评论管理
                 </a>
                 
@@ -726,7 +735,7 @@
                       
             
               <li>
-                <a class="menuitem flat-box" href="https://newbees.coding.net/" id="https:newbeescodingnet" rel="external nofollow noopener noreferrer" target="_blank">
+                <a class="menuitem flat-box faa-parent animated-hover" href="https://newbees.coding.net/" id="https:newbeescodingnet" rel="external nofollow noopener noreferrer" target="_blank">
                   <i class="fa fa-edit fa-fw"></i>云端编辑
                 </a>
                 
@@ -737,7 +746,7 @@
                       
             
               <li>
-                <a class="menuitem flat-box" href="https://tongji.baidu.com/web/10000245684/overview/index?siteId=15645714" id="https:tongjibaiducomweb10000245684overviewindex?siteId=15645714" rel="external nofollow noopener noreferrer" target="_blank">
+                <a class="menuitem flat-box faa-parent animated-hover" href="https://tongji.baidu.com/web/10000245684/overview/index?siteId=15645714" id="https:tongjibaiducomweb10000245684overviewindex?siteId=15645714" rel="external nofollow noopener noreferrer" target="_blank">
                   <i class="fa fa-align-left fa-fw"></i>百度统计
                 </a>
                 
@@ -754,7 +763,7 @@
               
             
               <li>
-                <a class="menuitem flat-box">
+                <a class="menuitem flat-box faa-parent animated-hover">
                   <i class="fa fa-ellipsis-v fa-fw fa-fw"></i>更多
                 </a>
                 
@@ -763,7 +772,7 @@
                       
             
               <li>
-                <a class="menuitem flat-box" href="/about/" id="about">
+                <a class="menuitem flat-box faa-parent animated-hover" href="/about/" id="about">
                   <i class="fas fa-info-circle fa-fw"></i>关于
                 </a>
                 
@@ -774,7 +783,7 @@
                       
             
               <li>
-                <a class="menuitem flat-box" href="/friends/" id="friends">
+                <a class="menuitem flat-box faa-parent animated-hover" href="/friends/" id="friends">
                   <i class="fas fa-link fa-fw"></i>友链
                 </a>
                 
@@ -785,7 +794,7 @@
                       
             
               <li>
-                <a class="menuitem flat-box" href="/history/" id="history">
+                <a class="menuitem flat-box faa-parent animated-hover" href="/history/" id="history">
                   <i class="fa fa-history fa-fw"></i>建站史
                 </a>
                 
@@ -802,7 +811,7 @@
                       
             
               <li>
-                <a class="menuitem flat-box" href="/blogger_said/" id="blogger_said">
+                <a class="menuitem flat-box faa-parent animated-hover" href="/blogger_said/" id="blogger_said">
                   <i class="fas fa-comment-dots fa-fw"></i>博主说
                 </a>
                 
@@ -813,7 +822,7 @@
                       
             
               <li>
-                <a class="menuitem flat-box" href="/messages/" id="messages">
+                <a class="menuitem flat-box faa-parent animated-hover" href="/messages/" id="messages">
                   <i class="fa fa-comments fa-fw"></i>留言板
                 </a>
                 
@@ -842,45 +851,41 @@
   <div class="l_body nocover">
     <div class="body-wrapper" id="pjax-container">
       
-        <!--此文件用来存放一些不方便取值的变量-->
-<!--思路大概是将值藏到重加载的区域内-->
-
-
-
-<div id="pjax-data" style="display: none">
-  <div id="pjax-ispage">false</div>
-  <div id="pjax-pageTitle"></div>
-  <div id="pjax-enable-cover">true</div>
-  <div id="pjax-permalink"></div>
-  
-  <div id="valine-path">none</div>
-  <div id="valine-placeholder">none</div>
-  
-  
-</div>
-
-
-<script>
-  // 处理封面 此时 jquery 还没加载
-  if ("none" == "none") { // 移除封面
-    document.getElementsByClassName('cover')[0].style.display = "none";
-    document.getElementsByClassName('l_body')[0].classList.add("nocover");
-    document.getElementsByClassName('l_header', 'cover-wrapper')[0].classList.add("show");
-  } else {
-    if ("none" == "blog") { // 半屏
-      document.getElementsByClassName('cover')[0].classList.remove("full");
-      document.getElementsByClassName('cover')[0].classList.add("half");
-      document.getElementsByClassName('scroll-down')[0].style.display = "none";
-    } else if ("none" == "docs") { // 全屏
-      document.getElementsByClassName('cover')[0].classList.remove("half");
-      document.getElementsByClassName('cover')[0].classList.add("full");
-      document.getElementsByClassName('scroll-down')[0].style.display = "";
-    }
-    document.getElementsByClassName('cover')[0].style.display = "";
-    document.getElementsByClassName('l_body', 'show')[0].classList.remove("nocover");
-    document.getElementsByClassName('l_header', 'cover-wrapper')[0].classList.remove("show");
-  }
-</script>
+        <!--此文件用来存放一些不方便取值的变量--> 
+<!--思路大概是将值藏到重加载的区域内--> 
+ 
+ 
+ 
+<div id="pjax-data" style="display: none"> 
+  <div id="pjax-ispage">false</div> 
+  <div id="pjax-pageTitle"></div> 
+  <div id="pjax-enable-cover">true</div> 
+  <div id="pjax-comment-path">none</div> 
+  <div id="pjax-comment-placeholder">none</div> 
+</div> 
+ 
+ 
+<script> 
+  // 处理封面 此时 jquery 还没加载 
+  if ("none" == "none") { // 移除封面 
+    document.getElementsByClassName('cover')[0].style.display = "none"; 
+    document.getElementsByClassName('l_body')[0].classList.add("nocover"); 
+    document.getElementsByClassName('l_header', 'cover-wrapper')[0].classList.add("show"); 
+  } else { 
+    if ("none" == "blog") { // 半屏 
+      document.getElementsByClassName('cover')[0].classList.remove("full"); 
+      document.getElementsByClassName('cover')[0].classList.add("half"); 
+      document.getElementsByClassName('scroll-down')[0].style.display = "none"; 
+    } else if ("none" == "docs") { // 全屏 
+      document.getElementsByClassName('cover')[0].classList.remove("half"); 
+      document.getElementsByClassName('cover')[0].classList.add("full"); 
+      document.getElementsByClassName('scroll-down')[0].style.display = ""; 
+    } 
+    document.getElementsByClassName('cover')[0].style.display = ""; 
+    document.getElementsByClassName('l_body', 'show')[0].classList.remove("nocover"); 
+    document.getElementsByClassName('l_header', 'cover-wrapper')[0].classList.remove("show"); 
+  } 
+</script> 
 
       
       
@@ -1386,7 +1391,7 @@
     
       
         本站使用
-        <a href="https://volantis.js.org/" target="_blank" class="codename" rel="external nofollow noopener noreferrer">Volantis</a>
+        <a href="https://github.com/volantis-x/hexo-theme-volantis/releases/tag/3.0.0" target="_blank" class="codename" rel="external nofollow noopener noreferrer">Volantis</a>
         作为主题，总访问量为
           <span id="busuanzi_value_site_pv"><i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span>
           次
@@ -1412,24 +1417,25 @@
 
   <div id="rightmenu-wrapper">
     <ul class="list-v rightmenu" id="rightmenu-content">
+      <li class="option">
+        <a class="vlts-menu opt fix-cursor-default" id="menu-copy-text" onclick="document.execCommand(" copy")"><i class="fa fa-copy fa-fw"></i>复制文本</a>
+        <hr id="hr-text">
+        <a class="vlts-menu opt fix-cursor-default" id="menu-copy-href"><i class="fa fa-link fa-fw"></i>复制链接</a>
+        <a class="vlts-menu opt fix-cursor-default" id="menu-open-href"><i class="fa fa-external-link-square-alt fa-fw"></i>在新标签页打开</a>
+        <hr id="hr-href">
+        <a class="vlts-menu opt fix-cursor-default" id="menu-copy-src"><i class="fa fa-image fa-fw"></i>复制图片地址</a>
+        <hr id="hr-src">
+      </li>
+      <li class="navigation">
+        <a class="nav icon-only fix-cursor-default" onclick="history.back()"><i class="fa fa-arrow-left fa-fw"></i></a>
+        <a class="nav icon-only fix-cursor-default" onclick="history.forward()"><i class="fa fa-arrow-right fa-fw"></i></a>
+        <a class="nav icon-only fix-cursor-default" onclick="window.location.reload()"><i class="fa fa-redo fa-fw"></i></a>
+        <a class="nav icon-only fix-cursor-default" href="/"><i class="fa fa-home fa-fw"></i></a>
+      </li>
+      <hr>
       
         
-          
-    <li>
-      <a class="vlts-menu fix-cursor-default" onclick="menuCopy()" id="menu-copy">
-        <i class="fa fa-copy fa-fw"></i> 复制
-      </a>
-    </li>
-  
-        
       
-        
-          <li class="navigation">
-            <a class="nav" onclick="history.back()"><i class="fa fa-arrow-left fa-fw"></i></a>
-            <a class="nav" onclick="history.forward()"><i class="fa fa-arrow-right fa-fw"></i></a>
-            <a class="nav" onclick="window.location.reload()"><i class="fa fa-redo fa-fw"></i></a>
-            <a class="nav fix-cursor-default" href="/"><i class="fa fa-home fa-fw"></i></a>
-          </li>
         
       
         
@@ -1506,30 +1512,103 @@
   </div>
 
   <script>
-    window.document.oncontextmenu = function () {
-      return false;
+    window.document.oncontextmenu = function (event) {
+      if (event.ctrlKey) return true;
+      if (/Android|webOS|BlackBerry/i.test(navigator.userAgent)) return true;
+      return popMenu(event);
     };
     document.addEventListener("click", function (event) {
       var mymenu = document.getElementById('rightmenu-wrapper');
       mymenu.style.display = "none";
     });
     function popMenu(event) {
-      var copy = document.getElementById('menu-copy');
-      var select = window.getSelection().toString(); // 鼠标选中的文本
-      copy.style.display = select == "" ? "none" : "block";
       var mymenu = document.getElementById('rightmenu-wrapper');
       var menuContent = document.getElementById('rightmenu-content');
-      var mouseClientX = event.clientX;
-      var mouseClientY = event.clientY;
-      var menuWidth = menuContent.offsetWidth == 0 ? 150 : menuContent.offsetWidth;
-      var menuHeight = menuContent.offsetHeight == 0 ? 242 : menuContent.offsetHeight;
       var screenWidth = document.documentElement.clientWidth || document.body.clientWidth;
       var screenHeight = document.documentElement.clientHeight || document.body.clientHeight;
-      var showLeft = mouseClientX + menuWidth > screenWidth ? mouseClientX - menuWidth + 10 : mouseClientX;
-      var showTop = mouseClientY + menuHeight > screenHeight ? mouseClientY - menuHeight + 10 : mouseClientY;
-      mymenu.style.left = showLeft + "px"; // 获取鼠标位置
-      mymenu.style.top = showTop + "px";
+      mymenu.style.left = event.clientX + "px"; // 获取鼠标位置
+      mymenu.style.top = event.clientY + "px";
       mymenu.style.display = 'block';
+      if (event.clientX * 2 > screenWidth) {
+        menuContent.classList.add('left');
+      } else {
+        menuContent.classList.remove('left');
+      }
+      if (event.clientY * 2 > screenHeight) {
+        menuContent.classList.add('top');
+      } else {
+        menuContent.classList.remove('top');
+      }
+
+      let hrText = document.getElementById('hr-text');
+      let hrSrc = document.getElementById('hr-src');
+      let hrHref = document.getElementById('hr-href');
+
+      // 选中图片
+      let copySrc = document.getElementById('menu-copy-src');
+      if (copySrc != undefined) {
+        if (event.target.currentSrc) {
+          copySrc.style.display = 'block';
+          copySrc.addEventListener("click", function (e) {
+            copyString(event.target.currentSrc);
+          },{once: true});
+          hrSrc.style.display = 'block';
+        } else {
+          copySrc.style.display = 'none';
+          hrSrc.style.display = 'none';
+        }
+      }
+
+      // 选中按钮
+      // 判断是不是按钮
+      let href = '';
+      if (event.path) {
+        for (i = 0; i < event.path.length; i++) {
+          if (event.path[i].href != undefined && event.path[i].href.length > 0) {
+            href = event.path[i].href;
+          }
+        }
+      }
+
+      let copyText = document.getElementById('menu-copy-text');
+      copyText.style.display = 'none';
+      hrText.style.display = 'none';
+      if (href.length == 0) {
+        // 选中文本
+        if (window.getSelection().toString()) {
+          copyText.style.display = 'block';
+          hrText.style.display = 'block';
+        }
+      }
+
+      // 在新标签页打开
+      let openHref = document.getElementById('menu-open-href');
+      if (openHref != undefined) {
+        if (href.length > 0) {
+          openHref.style.display = 'block';
+          openHref.addEventListener("click", function (e) {
+            window.open(href);
+          },{once: true});
+          hrHref.style.display = 'block';
+        } else {
+          openHref.style.display = 'none';
+          hrHref.style.display = 'none';
+        }
+      }
+      // 复制链接
+      let copyHref = document.getElementById('menu-copy-href');
+      if (copyHref != undefined) {
+        if (href.length > 0) {
+          copyHref.style.display = 'block';
+          copyHref.addEventListener("click", function (e) {
+            copyString(href);
+          },{once: true});
+        } else {
+          copyHref.style.display = 'none';
+        }
+      }
+
+      // 有音乐播放器
       if (true == true) {
         // 如果有aplayer，初始化一下
       	try {
@@ -1539,14 +1618,22 @@
       		console.log(error);
       	}
       }
+
       return false; // 该行代码确保系统自带的右键菜单不会被调出
     }
     function hideMenu() {
       document.getElementById('rightmenu-wrapper').style.display = 'none';
     }
-    function menuCopy() {
-      document.execCommand("Copy");
+    function copyString(str) {
+      const input = document.createElement('input');
+      input.setAttribute('readonly', 'readonly');
+      document.body.appendChild(input);
+      input.setAttribute('value', str);
+      input.select();
+      document.execCommand('copy');
+      document.body.removeChild(input);
     }
+    document.execCommand('click');
   </script>
 
 
@@ -1562,8 +1649,6 @@
     var ROOT = "/" || "/";
     if (!ROOT.endsWith('/')) ROOT += '/';
   </script>
-
-
 
 
 
@@ -1669,21 +1754,20 @@
   }
 
   function pjax_valine() {
-    var valinePath = $.trim($('#valine-path').text()) === "none" ?
-            window.location.pathname : $.trim($('#valine-path').text());
+    let pageUrl = $.trim($('#pjax-comment-path').text()) === "none" ? 
+      decodeURI(window.location.pathname) : $.trim($('#pjax-comment-path').text());
+    let pagePlaceholder = $.trim($('#pjax-comment-placeholder').text()) === "none" ?
+      "快来评论吧~" : $.trim($('#pjax-comment-placeholder').text());
 
-    var valinePlaceholder = $.trim($('#valine-placeholder').text()) === "none" ?
-            "快来评论吧~" : $.trim($('#valine-placeholder').text());
-
-    var ALLPATH = '';
-    if(ALLPATH != '') valinePath = ALLPATH;
+    let ALLPATH = '';
+    if(ALLPATH != '') pageUrl = ALLPATH;
 
     var valine = new Valine();
     valine.init({
       el: '#valine_container',
       meta: meta,
-      placeholder: valinePlaceholder,
-      path: valinePath,
+      placeholder: pagePlaceholder,
+      path: pageUrl,
       appId: "lEiKdruxoBLYx5xwMaXsvrLJ-MdYXbMMI",
       appKey: "xAv2Dr8ObmcNjsyyVaHdrqv2",
       pageSize: '6',
@@ -1936,19 +2020,18 @@
 
       window.subData = null; // 移除标题（用于一二级导航栏切换处）
       $.fancybox.close();    // 关闭弹窗
-      $('.nav-main').find('.list-v').not('.menu-phone').css("display","none"); // 移除小尾巴
-      $('.menu-phone.list-v').css("display","none"); // 移除小尾巴
       $('.l_header .switcher .s-search').removeClass('active'); // 关闭移动端激活的搜索框
       $('.l_header').removeClass('z_search-open'); // 关闭移动端激活的搜索框
       $('.wrapper').removeClass('sub'); // 跳转页面时关闭二级导航
 
-      $('.s-top').unbind('click');   // 解绑
-      $('.menu a').unbind('click');  // 解绑
-      $(window).unbind('resize');    // 解绑
-      $(window).unbind('scroll');    // 解绑
-      $(document).unbind('scroll');  // 解绑
-      $(document).unbind('click');   // 解绑
-      $('body').unbind('click');     // 解绑
+      // 解绑事件 避免重复监听
+      $('.s-top').unbind('click');
+      $('.menu a').unbind('click');
+      $(window).unbind('resize');
+      $(window).unbind('scroll');
+      $(document).unbind('scroll');
+      $(document).unbind('click');
+      $('body').unbind('click');
       window.ShowLoading();
     });
 
@@ -2009,9 +2092,6 @@
 
     
   </div>
-  
-    <script src="https://cdn.jsdelivr.net/gh/inkss/common@master/hexo/js/cookie.min.js"></script>
-  
 <script>
             window.imageLazyLoadSetting = {
                 isSPA: true,
