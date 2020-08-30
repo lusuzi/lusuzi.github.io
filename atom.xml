@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lusuzi.github.io/"/>
-  <updated>2020-08-15T13:38:09.600Z</updated>
+  <updated>2020-08-28T04:20:01.163Z</updated>
   <id>https://lusuzi.github.io/</id>
   
   <author>
@@ -15,6 +15,64 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>《为什么精英这样用脑不会累》读书笔记</title>
+    <link href="https://lusuzi.github.io/article/136fa9d8.html"/>
+    <id>https://lusuzi.github.io/article/136fa9d8.html</id>
+    <published>2020-08-28T03:49:31.000Z</published>
+    <updated>2020-08-28T04:20:01.163Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;时间管理应该仅仅围绕人来进行，而人的行为、情绪等基本受各种激素的合力调配，自由意志几乎没有多少，管理人的核心应该是管理他自身的激素水平。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="读书笔记" scheme="https://lusuzi.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="时间管理" scheme="https://lusuzi.github.io/tags/%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86/"/>
+    
+      <category term="精力管理" scheme="https://lusuzi.github.io/tags/%E7%B2%BE%E5%8A%9B%E7%AE%A1%E7%90%86/"/>
+    
+      <category term="生活" scheme="https://lusuzi.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何巧记积化和差与和差化积公式？</title>
+    <link href="https://lusuzi.github.io/article/c6bff206.html"/>
+    <id>https://lusuzi.github.io/article/c6bff206.html</id>
+    <published>2020-08-28T01:08:07.000Z</published>
+    <updated>2020-08-28T04:51:00.949Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;积化和差&quot;&gt;&lt;a href=&quot;#积化和差&quot; class=&quot;headerlink&quot; title=&quot;积化和差&quot;&gt;&lt;/a&gt;积化和差&lt;/h3&gt;&lt;p&gt;$$&lt;br&gt;\sin\alpha \cos\beta={\sin(\alpha+\beta)+\sin(\alpha-\beta) \over2}&lt;br&gt;$$&lt;/p&gt;
+&lt;p&gt;$$&lt;br&gt;\cos\alpha \sin\beta={\sin(\alpha+\beta)-\sin(\alpha-\beta) \over2}&lt;br&gt;$$&lt;/p&gt;
+&lt;p&gt;$$&lt;br&gt;\cos\alpha \cos\beta={\cos(\alpha+\beta)+\cos(\alpha-\beta) \over2}&lt;br&gt;$$&lt;/p&gt;
+&lt;p&gt;$$&lt;br&gt;\sin\alpha \sin\beta=-{\cos(\alpha+\beta)-\cos(\alpha-\beta) \over2}&lt;br&gt;$$&lt;/p&gt;
+&lt;center&gt;
+
+&lt;p&gt;&lt;strong&gt;正余余正，正加正减；&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;余余正正，余加负余减。&lt;/strong&gt;&lt;/p&gt;
+&lt;/center&gt;
+    
+    </summary>
+    
+    
+      <category term="转载" scheme="https://lusuzi.github.io/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+      <category term="数学" scheme="https://lusuzi.github.io/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+      <category term="公式" scheme="https://lusuzi.github.io/tags/%E5%85%AC%E5%BC%8F/"/>
+    
+      <category term="记忆" scheme="https://lusuzi.github.io/tags/%E8%AE%B0%E5%BF%86/"/>
+    
+  </entry>
   
   <entry>
     <title>半佛仙人：如何科学理解智商税</title>
@@ -446,50 +504,6 @@
       <category term="阅读" scheme="https://lusuzi.github.io/tags/%E9%98%85%E8%AF%BB/"/>
     
       <category term="原著阅读记录" scheme="https://lusuzi.github.io/tags/%E5%8E%9F%E8%91%97%E9%98%85%E8%AF%BB%E8%AE%B0%E5%BD%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>原著阅读记录:The Great Gatsby</title>
-    <link href="https://lusuzi.github.io/article/83e42b42.html"/>
-    <id>https://lusuzi.github.io/article/83e42b42.html</id>
-    <published>2019-04-18T12:04:38.000Z</published>
-    <updated>2020-08-10T06:58:37.531Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;这是我完整读完的第15本英文原著。   &lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="英语" scheme="https://lusuzi.github.io/categories/%E8%8B%B1%E8%AF%AD/"/>
-    
-    
-      <category term="阅读" scheme="https://lusuzi.github.io/tags/%E9%98%85%E8%AF%BB/"/>
-    
-      <category term="原著阅读记录" scheme="https://lusuzi.github.io/tags/%E5%8E%9F%E8%91%97%E9%98%85%E8%AF%BB%E8%AE%B0%E5%BD%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>一次绝处逢生的电脑修复</title>
-    <link href="https://lusuzi.github.io/article/f01b987b.html"/>
-    <id>https://lusuzi.github.io/article/f01b987b.html</id>
-    <published>2018-11-28T18:04:38.000Z</published>
-    <updated>2020-08-10T05:46:28.904Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/lusuzi/CDN/loading.gif&quot; data-original=&quot;https://cdn.jsdelivr.net/gh/lusuzi/CDN/images/f2.jpg&quot;&gt;&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="随笔" scheme="https://lusuzi.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
-    
-    
-      <category term="解决问题" scheme="https://lusuzi.github.io/tags/%E8%A7%A3%E5%86%B3%E9%97%AE%E9%A2%98/"/>
     
   </entry>
   

@@ -4,6 +4,64 @@
   
     
     <entry>
+      <title>《为什么精英这样用脑不会累》读书笔记</title>
+      <link href="/article/136fa9d8.html"/>
+      <url>/article/136fa9d8.html</url>
+      
+        <content type="html"><![CDATA[<p>时间管理应该仅仅围绕人来进行，而人的行为、情绪等基本受各种激素的合力调配，自由意志几乎没有多少，管理人的核心应该是管理他自身的激素水平。</p><a id="more"></a><div><a class="link-card" title="https://book.douban.com/review/10458294/" href="https://book.douban.com/review/10458294/" target="_blank" rel="external nofollow noopener noreferrer"><div class="left"><i class="fas fa-link"></i></div><div class="right"><p class="text">优选书评</p><p class="url">https://book.douban.com/review/10458294/</p></div></a></div><div><a class="link-card" title="https://mubu.com/doc1OFX2gDilE7" href="https://mubu.com/doc1OFX2gDilE7" target="_blank" rel="external nofollow noopener noreferrer"><div class="left"><i class="fas fa-link"></i></div><div class="right"><p class="text">幕布笔记</p><p class="url">https://mubu.com/doc1OFX2gDilE7</p></div></a></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 读书笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 时间管理 </tag>
+            
+            <tag> 精力管理 </tag>
+            
+            <tag> 生活 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>如何巧记积化和差与和差化积公式？</title>
+      <link href="/article/c6bff206.html"/>
+      <url>/article/c6bff206.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="积化和差"><a href="#积化和差" class="headerlink" title="积化和差"></a>积化和差</h3><p>$$<br>\sin\alpha \cos\beta={\sin(\alpha+\beta)+\sin(\alpha-\beta) \over2}<br>$$</p><p>$$<br>\cos\alpha \sin\beta={\sin(\alpha+\beta)-\sin(\alpha-\beta) \over2}<br>$$</p><p>$$<br>\cos\alpha \cos\beta={\cos(\alpha+\beta)+\cos(\alpha-\beta) \over2}<br>$$</p><p>$$<br>\sin\alpha \sin\beta=-{\cos(\alpha+\beta)-\cos(\alpha-\beta) \over2}<br>$$</p><center><p><strong>正余余正，正加正减；</strong></p><p><strong>余余正正，余加负余减。</strong></p></center><a id="more"></a><h3 id="和差化积"><a href="#和差化积" class="headerlink" title="和差化积"></a>和差化积</h3><p>$$<br>\sin\alpha +\sin\beta=2\sin{\alpha+\beta \over2}\cos{\alpha-\beta \over2}<br>$$</p><p>$$<br>\sin\alpha -\sin\beta=2\cos{\alpha+\beta \over2}\sin{\alpha-\beta \over2}<br>$$</p><p>$$<br>\cos\alpha +\cos\beta=2\cos{\alpha+\beta \over2}\cos{\alpha-\beta \over2}<br>$$</p><p>$$<br>\cos\alpha -\cos\beta=-2\sin{\alpha+\beta \over2}\sin{\alpha-\beta \over2}<br>$$</p><center><p><strong>正加正，正在前；</strong></p><p><strong>正减正，余在前；</strong></p><p><strong>余加余，余并肩；</strong></p><p><strong>余减余，负正弦。</strong></p></center><h3 id="规则"><a href="#规则" class="headerlink" title="规则"></a>规则</h3><p><strong>前后相随，表里如一。</strong></p><p>前后相随（前后项数统一）：</p><blockquote><p>积是一项，化和差后要除2；</p><p>和差是两项，化积后要成乘2。</p></blockquote><p>表里如一（内外项数统一）：</p><blockquote><p>括号内变量都是先$\alpha +\beta$，再$\alpha -\beta$。</p><p>化和差后是两项，$\alpha \pm \beta$两项不变；</p><p>化积后是一项，$\alpha \pm \beta$要除2变一项。</p></blockquote><br><div><a class="link-card" title="https://www.zhihu.com/question/20829733/answer/72912247" href="https://www.zhihu.com/question/20829733/answer/72912247" target="_blank" rel="external nofollow noopener noreferrer"><div class="left"><i class="fas fa-link"></i></div><div class="right"><p class="text">阅读原文</p><p class="url">https://www.zhihu.com/question/20829733/answer/72912247</p></div></a></div><div><a class="link-card" title="https://blog.csdn.net/u010945683/article/details/46757757" href="https://blog.csdn.net/u010945683/article/details/46757757" target="_blank" rel="external nofollow noopener noreferrer"><div class="left"><i class="fas fa-link"></i></div><div class="right"><p class="text">MathJax基本的使用方式</p><p class="url">https://blog.csdn.net/u010945683/article/details/46757757</p></div></a></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 转载 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数学 </tag>
+            
+            <tag> 公式 </tag>
+            
+            <tag> 记忆 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>半佛仙人：如何科学理解智商税</title>
       <link href="/article/7d3004c4.html"/>
       <url>/article/7d3004c4.html</url>
@@ -670,9 +728,9 @@
       
         <tags>
             
-            <tag> 学习 </tag>
-            
             <tag> 记忆 </tag>
+            
+            <tag> 学习 </tag>
             
         </tags>
       
