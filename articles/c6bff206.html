@@ -2107,7 +2107,7 @@ $$\sin\alpha \sin\beta=-{\cos(\alpha+\beta)-\cos(\alpha-\beta) \over2}$$
       try {
         var currentUrl = window.location.pathname;
         var targetUrl = e.triggerElement.href;
-        var banUrl = ["/blogger_said/"];
+        var banUrl = ["/blogger_said/", "/posts/"];
         if (banUrl[0] != "") {
           banUrl.forEach(item => {
             if(currentUrl.indexOf(item) != -1 || targetUrl.indexOf(item) != -1) {
