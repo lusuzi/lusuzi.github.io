@@ -25,11 +25,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;第174封信丨人生最重要的投资（上）&lt;/p&gt;
-&lt;br&gt;
-
-&lt;p&gt;鹿苏子，你好！&lt;/p&gt;
-&lt;p&gt;我们之前聊了七次有关投资的话题，大家讨论非常热烈。很多人都接受了一个观点，那就是对自己的投资，以及对自己事业的投资远比在股市上捞点钱，或者向父母借钱买一个房子更为重要。&lt;/p&gt;
+      &lt;p&gt;第174封信丨人生最重要的投资（上）&lt;/p&gt;&lt;br&gt;&lt;p&gt;鹿苏子，你好！&lt;/p&gt;&lt;p&gt;我们之前聊了七次有关投资的话题，大家讨论非常热烈。很多人都接受了一个观点，那就是对自己的投资，以及对自己事业的投资远比在股市上捞点钱，或者向父母借钱买一个房子更为重要。&lt;/p&gt;
     
     </summary>
     
@@ -85,11 +81,11 @@
       <category term="读书笔记" scheme="https://lusuzi.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="生活" scheme="https://lusuzi.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
-    
       <category term="时间管理" scheme="https://lusuzi.github.io/tags/%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86/"/>
     
       <category term="精力管理" scheme="https://lusuzi.github.io/tags/%E7%B2%BE%E5%8A%9B%E7%AE%A1%E7%90%86/"/>
+    
+      <category term="生活" scheme="https://lusuzi.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
@@ -102,15 +98,7 @@
     
     <summary type="html">
     
-      &lt;h3 id=&quot;积化和差&quot;&gt;&lt;a href=&quot;#积化和差&quot; class=&quot;headerlink&quot; title=&quot;积化和差&quot;&gt;&lt;/a&gt;积化和差&lt;/h3&gt;&lt;p&gt;$$&lt;br&gt;\sin\alpha \cos\beta={\sin(\alpha+\beta)+\sin(\alpha-\beta) \over2}&lt;br&gt;$$&lt;/p&gt;
-&lt;p&gt;$$&lt;br&gt;\cos\alpha \sin\beta={\sin(\alpha+\beta)-\sin(\alpha-\beta) \over2}&lt;br&gt;$$&lt;/p&gt;
-&lt;p&gt;$$&lt;br&gt;\cos\alpha \cos\beta={\cos(\alpha+\beta)+\cos(\alpha-\beta) \over2}&lt;br&gt;$$&lt;/p&gt;
-&lt;p&gt;$$&lt;br&gt;\sin\alpha \sin\beta=-{\cos(\alpha+\beta)-\cos(\alpha-\beta) \over2}&lt;br&gt;$$&lt;/p&gt;
-&lt;center&gt;
-
-&lt;p&gt;&lt;strong&gt;正余余正，正加正减；&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;余余正正，余加负余减。&lt;/strong&gt;&lt;/p&gt;
-&lt;/center&gt;
+      &lt;h3 id=&quot;积化和差&quot;&gt;&lt;a href=&quot;#积化和差&quot; class=&quot;headerlink&quot; title=&quot;积化和差&quot;&gt;&lt;/a&gt;积化和差&lt;/h3&gt;&lt;p&gt;$$&lt;br&gt;\sin\alpha \cos\beta={\sin(\alpha+\beta)+\sin(\alpha-\beta) \over2}&lt;br&gt;$$&lt;/p&gt;&lt;p&gt;$$&lt;br&gt;\cos\alpha \sin\beta={\sin(\alpha+\beta)-\sin(\alpha-\beta) \over2}&lt;br&gt;$$&lt;/p&gt;&lt;p&gt;$$&lt;br&gt;\cos\alpha \cos\beta={\cos(\alpha+\beta)+\cos(\alpha-\beta) \over2}&lt;br&gt;$$&lt;/p&gt;&lt;p&gt;$$&lt;br&gt;\sin\alpha \sin\beta=-{\cos(\alpha+\beta)-\cos(\alpha-\beta) \over2}&lt;br&gt;$$&lt;/p&gt;&lt;center&gt;&lt;p&gt;&lt;strong&gt;正余余正，正加正减；&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;余余正正，余加负余减。&lt;/strong&gt;&lt;/p&gt;&lt;/center&gt;
     
     </summary>
     
@@ -118,11 +106,11 @@
       <category term="转载" scheme="https://lusuzi.github.io/categories/%E8%BD%AC%E8%BD%BD/"/>
     
     
+      <category term="数学" scheme="https://lusuzi.github.io/tags/%E6%95%B0%E5%AD%A6/"/>
+    
       <category term="公式" scheme="https://lusuzi.github.io/tags/%E5%85%AC%E5%BC%8F/"/>
     
       <category term="记忆" scheme="https://lusuzi.github.io/tags/%E8%AE%B0%E5%BF%86/"/>
-    
-      <category term="数学" scheme="https://lusuzi.github.io/tags/%E6%95%B0%E5%AD%A6/"/>
     
   </entry>
   
@@ -158,10 +146,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;之前写了篇&lt;a href=&quot;https://lusuzi.github.io/article/91a5995.html&quot;&gt;文章&lt;/a&gt;中提到斯多葛学派的处世态度：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;愿上帝赐给我勇气，让我改变那些可以改变的事；愿上帝赐给我平和，让我接受那些我无法改变的事；愿上帝赐给我智慧，让我分得清楚上述二者的区别。 &lt;/p&gt;
-&lt;/blockquote&gt;
+      &lt;p&gt;之前写了篇&lt;a href=&quot;https://lusuzi.github.io/article/91a5995.html&quot;&gt;文章&lt;/a&gt;中提到斯多葛学派的处世态度：&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;愿上帝赐给我勇气，让我改变那些可以改变的事；愿上帝赐给我平和，让我接受那些我无法改变的事；愿上帝赐给我智慧，让我分得清楚上述二者的区别。&lt;/p&gt;&lt;/blockquote&gt;
     
     </summary>
     
@@ -188,8 +173,7 @@
       
         
         
-          &lt;p&gt;1/If the news are fake imagine history.&lt;/p&gt;
-&lt;p&gt;2/Human life is gradually tuning from a struggle against suffering into a struggle
+          &lt;p&gt;1/If the news are fake imagine history.&lt;/p&gt;&lt;p&gt;2/Human life is gradually tuning from a struggle against suffering into a struggle against
         
       
     
@@ -199,9 +183,9 @@
       <category term="转载" scheme="https://lusuzi.github.io/categories/%E8%BD%AC%E8%BD%BD/"/>
     
     
-      <category term="观念" scheme="https://lusuzi.github.io/tags/%E8%A7%82%E5%BF%B5/"/>
-    
       <category term="思维" scheme="https://lusuzi.github.io/tags/%E6%80%9D%E7%BB%B4/"/>
+    
+      <category term="观念" scheme="https://lusuzi.github.io/tags/%E8%A7%82%E5%BF%B5/"/>
     
   </entry>
   
@@ -222,9 +206,9 @@
       <category term="转载" scheme="https://lusuzi.github.io/categories/%E8%BD%AC%E8%BD%BD/"/>
     
     
-      <category term="休息" scheme="https://lusuzi.github.io/tags/%E4%BC%91%E6%81%AF/"/>
-    
       <category term="方法" scheme="https://lusuzi.github.io/tags/%E6%96%B9%E6%B3%95/"/>
+    
+      <category term="休息" scheme="https://lusuzi.github.io/tags/%E4%BC%91%E6%81%AF/"/>
     
   </entry>
   
@@ -260,11 +244,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;该书作者正是&lt;strong&gt;积极心理学&lt;/strong&gt;（link:&lt;a href=&quot;http://open.163.com/movie/2006/1/1/9/M6HV755O6_M6HV8DF19.html&quot; target=&quot;_blank&quot; rel=&quot;external nofollow noopener noreferrer&quot;&gt;哈佛的积极心理学公开课&lt;/a&gt;）的鼻祖之一，他与塞利格曼2000年联手发表《积极心理学导论》一文标志着积极心理学的问世，而&lt;strong&gt;书中的核心概念——心流，正是积极心理学的基石&lt;/strong&gt;。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;“心流”是指我们在做某些事情时，那种全神贯注、投入忘我的状态——这种状态下，你甚至感觉不到时间的存在，在这件事情完成之后我们会有一种充满能量并且非常满足的感受。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;这不就是我们每个人追求的吗？——在高效完成大量事情的同时还感到十分快乐。&lt;/p&gt;
+      &lt;p&gt;该书作者正是&lt;strong&gt;积极心理学&lt;/strong&gt;（link:&lt;a href=&quot;http://open.163.com/movie/2006/1/1/9/M6HV755O6_M6HV8DF19.html&quot; target=&quot;_blank&quot; rel=&quot;external nofollow noopener noreferrer&quot;&gt;哈佛的积极心理学公开课&lt;/a&gt;）的鼻祖之一，他与塞利格曼2000年联手发表《积极心理学导论》一文标志着积极心理学的问世，而&lt;strong&gt;书中的核心概念——心流，正是积极心理学的基石&lt;/strong&gt;。&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;“心流”是指我们在做某些事情时，那种全神贯注、投入忘我的状态——这种状态下，你甚至感觉不到时间的存在，在这件事情完成之后我们会有一种充满能量并且非常满足的感受。&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;这不就是我们每个人追求的吗？——在高效完成大量事情的同时还感到十分快乐。&lt;/p&gt;
     
     </summary>
     
@@ -272,9 +252,9 @@
       <category term="读书笔记" scheme="https://lusuzi.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="心理学" scheme="https://lusuzi.github.io/tags/%E5%BF%83%E7%90%86%E5%AD%A6/"/>
-    
       <category term="生活" scheme="https://lusuzi.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+      <category term="心理学" scheme="https://lusuzi.github.io/tags/%E5%BF%83%E7%90%86%E5%AD%A6/"/>
     
   </entry>
   
@@ -287,8 +267,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;柳比歇夫的一生看起来平淡枯燥，但留下了巨量的学术遗产，他与自己生命之所构成——时间——和睦相处，在几十年如一日的精确的时间统计下，已然成为了时间的朋友，真是令人“仰之弥高，钻之弥坚；瞻之在前，忽焉在后”。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;生命即是时间构成的&lt;/strong&gt;，而我们很多普通人的一生中，时间却被我们不断地浪费着。我们时常视之为草芥，甚至发明了“消磨时光”的概念及其衍生的活动形式。读读这本书，会让我们汗颜。&lt;/p&gt;
+      &lt;p&gt;柳比歇夫的一生看起来平淡枯燥，但留下了巨量的学术遗产，他与自己生命之所构成——时间——和睦相处，在几十年如一日的精确的时间统计下，已然成为了时间的朋友，真是令人“仰之弥高，钻之弥坚；瞻之在前，忽焉在后”。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;生命即是时间构成的&lt;/strong&gt;，而我们很多普通人的一生中，时间却被我们不断地浪费着。我们时常视之为草芥，甚至发明了“消磨时光”的概念及其衍生的活动形式。读读这本书，会让我们汗颜。&lt;/p&gt;
     
     </summary>
     
@@ -296,9 +275,9 @@
       <category term="读书笔记" scheme="https://lusuzi.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="生活" scheme="https://lusuzi.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
-    
       <category term="时间管理" scheme="https://lusuzi.github.io/tags/%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86/"/>
+    
+      <category term="生活" scheme="https://lusuzi.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
@@ -340,9 +319,9 @@
       <category term="读书笔记" scheme="https://lusuzi.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="方法" scheme="https://lusuzi.github.io/tags/%E6%96%B9%E6%B3%95/"/>
-    
       <category term="数学" scheme="https://lusuzi.github.io/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+      <category term="方法" scheme="https://lusuzi.github.io/tags/%E6%96%B9%E6%B3%95/"/>
     
   </entry>
   
@@ -451,8 +430,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;这是我上大学时学习李笑来的得到APP专栏《通往财富自由之路》的学习笔记。&lt;/p&gt;
-&lt;p&gt;李笑来这个人争议颇多，例如各种营销手段、可能的站台行为等，特别是18年流出的私下录音把真实的他展现在了公众面前，让人大跌眼镜。但不可否认的是，他是个非常厉害的人，从英语到写作再到编程等样样精通，学习能力超强，其中一项能力就是能够用读者熟悉的概念把道理讲清楚，而且还思路清奇，让人有醍醐灌顶的感觉，当然这项能力也让他擅长洗脑。此人阅读量大，经验丰富，既通理论又懂现实，从他那可以学到很多东西，前提是保持独立思考，否则就成为他的韭菜了。&lt;/p&gt;
+      &lt;p&gt;这是我上大学时学习李笑来的得到APP专栏《通往财富自由之路》的学习笔记。&lt;/p&gt;&lt;p&gt;李笑来这个人争议颇多，例如各种营销手段、可能的站台行为等，特别是18年流出的私下录音把真实的他展现在了公众面前，让人大跌眼镜。但不可否认的是，他是个非常厉害的人，从英语到写作再到编程等样样精通，学习能力超强，其中一项能力就是能够用读者熟悉的概念把道理讲清楚，而且还思路清奇，让人有醍醐灌顶的感觉，当然这项能力也让他擅长洗脑。此人阅读量大，经验丰富，既通理论又懂现实，从他那可以学到很多东西，前提是保持独立思考，否则就成为他的韭菜了。&lt;/p&gt;
     
     </summary>
     
@@ -475,8 +453,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;为了准备毕业论文，2019年12月21日我花了一天时间看完了《深入浅出数据分析》这本书。这本书实在是宝藏级入门书，采用章回小说形式，运用生动案例来讲解数据分析的核心概念，真正做到了深入浅出，让我毫不费力地沉迷其中。&lt;/p&gt;
-&lt;p&gt;对比英文版，我发现我看的中文版省略了序言部分，但这部分对于不了解脑科学、认知科学的人却很重要！于是我将这部分的重要部分翻译过来了（采用意译形式）。&lt;/p&gt;
+      &lt;p&gt;为了准备毕业论文，2019年12月21日我花了一天时间看完了《深入浅出数据分析》这本书。这本书实在是宝藏级入门书，采用章回小说形式，运用生动案例来讲解数据分析的核心概念，真正做到了深入浅出，让我毫不费力地沉迷其中。&lt;/p&gt;&lt;p&gt;对比英文版，我发现我看的中文版省略了序言部分，但这部分对于不了解脑科学、认知科学的人却很重要！于是我将这部分的重要部分翻译过来了（采用意译形式）。&lt;/p&gt;
     
     </summary>
     
