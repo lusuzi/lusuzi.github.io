@@ -8,15 +8,22 @@
     </url>
     
     <url>
-        <loc>https://lusuzi.github.io/tools/</loc>
-        <lastmod>2020-09-15T07:03:14.602Z</lastmod>
+        <loc>https://lusuzi.github.io/history/</loc>
+        <lastmod>2020-09-26T03:24:56.857Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
         <loc>https://lusuzi.github.io/about/</loc>
-        <lastmod>2020-09-15T04:00:30.385Z</lastmod>
+        <lastmod>2020-09-26T02:26:00.198Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://lusuzi.github.io/tools/</loc>
+        <lastmod>2020-09-15T07:03:14.602Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -59,13 +66,6 @@
     <url>
         <loc>https://lusuzi.github.io/works/</loc>
         <lastmod>2020-08-18T02:13:52.888Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://lusuzi.github.io/history/</loc>
-        <lastmod>2020-08-07T23:25:08.349Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
