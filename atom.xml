@@ -142,29 +142,6 @@
   </entry>
   
   <entry>
-    <title>区块链投资日记（2）</title>
-    <link href="https://lusuzi.github.io/article/682814d2.html"/>
-    <id>https://lusuzi.github.io/article/682814d2.html</id>
-    <published>2020-09-09T01:56:40.000Z</published>
-    <updated>2020-09-12T09:21:52.592Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;币市上周大幅回撤，将我的利润基本归零。我全部清仓，拿着本金，重新开始，制定出了全新的交易规则。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="投资日记" scheme="https://lusuzi.github.io/categories/%E6%8A%95%E8%B5%84%E6%97%A5%E8%AE%B0/"/>
-    
-    
-      <category term="区块链" scheme="https://lusuzi.github.io/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
-    
-      <category term="日记" scheme="https://lusuzi.github.io/tags/%E6%97%A5%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
     <title>《为什么精英这样用脑不会累》读书笔记</title>
     <link href="https://lusuzi.github.io/article/136fa9d8.html"/>
     <id>https://lusuzi.github.io/article/136fa9d8.html</id>
@@ -283,9 +260,9 @@
       <category term="转载" scheme="https://lusuzi.github.io/categories/%E8%BD%AC%E8%BD%BD/"/>
     
     
-      <category term="思维" scheme="https://lusuzi.github.io/tags/%E6%80%9D%E7%BB%B4/"/>
-    
       <category term="观念" scheme="https://lusuzi.github.io/tags/%E8%A7%82%E5%BF%B5/"/>
+    
+      <category term="思维" scheme="https://lusuzi.github.io/tags/%E6%80%9D%E7%BB%B4/"/>
     
   </entry>
   
@@ -398,9 +375,9 @@
       <category term="读书笔记" scheme="https://lusuzi.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="方法" scheme="https://lusuzi.github.io/tags/%E6%96%B9%E6%B3%95/"/>
-    
       <category term="演讲" scheme="https://lusuzi.github.io/tags/%E6%BC%94%E8%AE%B2/"/>
+    
+      <category term="方法" scheme="https://lusuzi.github.io/tags/%E6%96%B9%E6%B3%95/"/>
     
   </entry>
   
@@ -427,32 +404,9 @@
       <category term="读书笔记" scheme="https://lusuzi.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="数学" scheme="https://lusuzi.github.io/tags/%E6%95%B0%E5%AD%A6/"/>
-    
       <category term="方法" scheme="https://lusuzi.github.io/tags/%E6%96%B9%E6%B3%95/"/>
     
-  </entry>
-  
-  <entry>
-    <title>区块链投资日记（1）</title>
-    <link href="https://lusuzi.github.io/article/d6505d8b.html"/>
-    <id>https://lusuzi.github.io/article/d6505d8b.html</id>
-    <published>2020-08-02T01:56:40.000Z</published>
-    <updated>2020-08-03T11:19:16.148Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;币市这周累计涨幅普遍高达百分之好几十，而在今天（8月2日）中午突然出现急促的较大回撤。回撤是意料之中的，但是如此猛烈（最高比例达到20%~30%，时间几分钟）却是让人震惊的。这次回撤后，我对我的持仓做了一点调整，而巴菲特老爷子投资前会经过“纸上的思考”，这能让人更加冷静和有根据，因此我也打算将我投资中的操作与思考写下来，系列名称定为《区块链投资日记》。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="投资日记" scheme="https://lusuzi.github.io/categories/%E6%8A%95%E8%B5%84%E6%97%A5%E8%AE%B0/"/>
-    
-    
-      <category term="区块链" scheme="https://lusuzi.github.io/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
-    
-      <category term="日记" scheme="https://lusuzi.github.io/tags/%E6%97%A5%E8%AE%B0/"/>
+      <category term="数学" scheme="https://lusuzi.github.io/tags/%E6%95%B0%E5%AD%A6/"/>
     
   </entry>
   
@@ -501,6 +455,54 @@
     
     
       <category term="区块链" scheme="https://lusuzi.github.io/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一台电脑用多个Github部署多个Hexo博客</title>
+    <link href="https://lusuzi.github.io/article/8e989db0.html"/>
+    <id>https://lusuzi.github.io/article/8e989db0.html</id>
+    <published>2020-07-27T10:12:12.000Z</published>
+    <updated>2020-07-27T15:17:13.396Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;如果需要在一台电脑部署多个Hexo博客，可以在同一个Github账号下创建多个Pages，但那样只有一个&lt;code&gt;用户名.github.io&lt;/code&gt;这样的域名，其他的为子域名&lt;code&gt;用户名.github.io/xxx&lt;/code&gt;。也可以多申请几个Github账号，每个账号建立一个Hexo博客，彼此独立。以下介绍如何实施后者。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="计算机" scheme="https://lusuzi.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    
+      <category term="工具" scheme="https://lusuzi.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="git" scheme="https://lusuzi.github.io/tags/git/"/>
+    
+      <category term="hexo" scheme="https://lusuzi.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我们最宝贵的财富是什么？</title>
+    <link href="https://lusuzi.github.io/article/b73c5547.html"/>
+    <id>https://lusuzi.github.io/article/b73c5547.html</id>
+    <published>2020-06-25T05:05:30.000Z</published>
+    <updated>2020-08-16T02:55:57.694Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这是我上大学时学习李笑来的得到APP专栏《通往财富自由之路》的学习笔记。&lt;/p&gt;&lt;p&gt;李笑来这个人争议颇多，例如各种营销手段、可能的站台行为等，特别是18年流出的私下录音把真实的他展现在了公众面前，让人大跌眼镜。但不可否认的是，他是个非常厉害的人，从英语到写作再到编程等样样精通，学习能力超强，其中一项能力就是能够用读者熟悉的概念把道理讲清楚，而且还思路清奇，让人有醍醐灌顶的感觉，当然这项能力也让他擅长洗脑。此人阅读量大，经验丰富，既通理论又懂现实，从他那可以学到很多东西，前提是保持独立思考，否则就成为他的韭菜了。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="价值观" scheme="https://lusuzi.github.io/categories/%E4%BB%B7%E5%80%BC%E8%A7%82/"/>
+    
+    
+      <category term="观念" scheme="https://lusuzi.github.io/tags/%E8%A7%82%E5%BF%B5/"/>
+    
+      <category term="财富" scheme="https://lusuzi.github.io/tags/%E8%B4%A2%E5%AF%8C/"/>
     
   </entry>
   

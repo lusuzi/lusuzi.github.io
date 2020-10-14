@@ -149,33 +149,6 @@
     
     
     <entry>
-      <title>区块链投资日记（2）</title>
-      <link href="/article/682814d2.html"/>
-      <url>/article/682814d2.html</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>币市上周大幅回撤，将我的利润基本归零。我全部清仓，拿着本金，重新开始，制定出了全新的交易规则。</p><a id="more"></a><p>人是不可靠的，受着情绪的影响，投资应该要根据指标进行，这时，纪律（descipline）的价值就体现出来了。</p><p>定投策略绝对是一个普适的好策略，让我历经两次大跌都基本保本，其他和我同时进场的人则亏了不少。但是，币市是有其规律的，根据其规律对定投规则进行改良，能够大大提高成功率，同时也减少了决策的成本。</p><p>我来排个序。最低级的策略是按照自己的感觉走，如果按照自己的感觉进行投资，一是非常不可靠，二是耗费时间。于是，定投策略这种自动化规则化的策略的优势就体现出来了，明显优于感觉。进一步，对定投策略进行改良的策略则一般优于纯定投策略，如智能定投策略——价高更加少投，价低更加多投。最后，根据市场规律对<strong>定投策略</strong>进行改良的投资策略胜算率更大，而根据市场规律对<strong>改良版定投策略</strong>进行进一步改良的投资策略则是终极的策略。</p><blockquote><p>成功率：感觉投资 &lt; 定投 &lt; 改良版定投 &lt; 市场规律改良版定投 &lt; 市场规律改良版改良版定投</p></blockquote><p>从2020.09.09起，我采用“市场规律改良版改良版定投”方式进行区块链投资，投资标的是BTC、ETH和BCH。整个投资组合加投资策略我把它叫做<strong>鹿苏子区块链投资方案</strong>。</p><p>具体规则如下：</p><blockquote><p>以<a href="https://www.qkl123.com/data/ahr999/btc" target="_blank" rel="external nofollow noopener noreferrer">BTC-ahr999囤币指标</a>与<a href="https://www.qkl123.com/data/acc_increase/btc" target="_blank" rel="external nofollow noopener noreferrer">BTC-江卓尔60日累计涨幅</a>为指导，以比特币、以太坊和比特币现金为投资标的，用<a href="https://beemao.com/" target="_blank" rel="external nofollow noopener noreferrer">币猫</a>进行自动智能定投。</p><p>（1）在BTC-ahr999囤币指标的定投线与抄底线间持续智能定投。</p><p>（2）指数第一次超过定投线，停止智能定投，并立即清除仓位的1/2，等待其掉入定投线下方，在震荡期，指数在定投线下方开启智能定投，在定投线上方停止智能定投。若其超过并不断远离定投线，转而跟踪BTC-江卓尔60日累计涨幅，在高点全部清仓。若其跌落定投线并短时不再回去，继续按（1）进行。</p><p>（3）指数一旦低于抄底线，直接用大量资金抄底，停止定投，一直等到超过定投线并继续按照（2）进行。</p><p>（4）若预期定投资金不足，即便处于定投区间，在BTC-江卓尔30日累计涨幅较大的时机进行不超过30%的减仓。</p></blockquote><p>这样，我就可以不管市场情绪、外部环境了。平时让软件自动定投，我只需按照指标进行抄底与止盈了。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 投资日记 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 区块链 </tag>
-            
-            <tag> 日记 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>《为什么精英这样用脑不会累》读书笔记</title>
       <link href="/article/136fa9d8.html"/>
       <url>/article/136fa9d8.html</url>
@@ -304,9 +277,9 @@
       
         <tags>
             
-            <tag> 思维 </tag>
-            
             <tag> 观念 </tag>
+            
+            <tag> 思维 </tag>
             
         </tags>
       
@@ -439,9 +412,9 @@
       
         <tags>
             
-            <tag> 方法 </tag>
-            
             <tag> 演讲 </tag>
+            
+            <tag> 方法 </tag>
             
         </tags>
       
@@ -466,36 +439,9 @@
       
         <tags>
             
-            <tag> 数学 </tag>
-            
             <tag> 方法 </tag>
             
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>区块链投资日记（1）</title>
-      <link href="/article/d6505d8b.html"/>
-      <url>/article/d6505d8b.html</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>币市这周累计涨幅普遍高达百分之好几十，而在今天（8月2日）中午突然出现急促的较大回撤。回撤是意料之中的，但是如此猛烈（最高比例达到20%~30%，时间几分钟）却是让人震惊的。这次回撤后，我对我的持仓做了一点调整，而巴菲特老爷子投资前会经过“纸上的思考”，这能让人更加冷静和有根据，因此我也打算将我投资中的操作与思考写下来，系列名称定为《区块链投资日记》。</p><a id="more"></a><p>此次暴涨暴跌再次印证了没有永远上涨的投资标的，即便目前基本可以确定币市已经处于牛市，但也将会存在很多次洗盘，一段时间内累计涨幅过高，新资金进场速度更不上涨幅，币价就会发生调整。币市波动已经够猛烈了，那些加杠杆的人长期看几乎百分百爆仓，在最高点前仓位被爆实在非常可惜。正确的做法应该是：</p><blockquote><ol><li>投入金额不占总资产过高的比例，否则很容易睡不好而中途放弃</li><li>只投有价值支撑的、市值排名靠前的币种，否则动不动币价一蹶不振或归零</li><li>只拿现货不加杠杆不搞期货，否则容易在黎明前被爆</li><li>最好不要做空，做空的损失理论上可以是无限的</li></ol></blockquote><p>这次在高点我没有部分卖出是因为我以为还有几天的上涨，没想到调整是如此迅速而巨大。我意识到我仓位过重了，如果后期还有调整会影响心情，于是在已经发生调整的情况下仍卖出了20%的ETH和20%的BCH，这样即便后期再跌，我的心情会很好，后期如果上涨，我也仍然有很大的仓位。<strong>投资需要考虑人的心理。</strong></p><p>此外，我认为EOS目前基本处于停滞状态，没什么竞争力了，即便可能它也可以去蹭Defi的热度涨上一波，但EOS创始人BM高度不确定，我认为投资虽然可能有大的炒作空间但实际没什么竞争力且高度不确定的币种不是好的选择，我需要将有限的资金充分利用起来，兼顾涨幅与安全。于是我将EOS的部分仓位换成了XMR，因为它不仅高度去中心化，而且优秀的匿名性让它在暗网市场已经取代了BTC成为首选币种了，它的市值有实际应用的支撑，而且盘子不大，预计涨幅也会不错。</p><p>经过以上调整，我的仓位变为如下。</p><p><img src="https://cdn.jsdelivr.net/gh/lusuzi/CDN/loading.gif" data-original="https://cdn.jsdelivr.net/gh/lusuzi/CDN/images/invest1.png"></p><p>由于BTC的稳定性强，后期我可能不再对其进行调整了，EOS和XMR则会视情况手动调整，而ETH和BCH则打算以定投的形式将剩余资金投入，见高位就部分止盈以补充定投弹药，属于半自动操作。涨得过快止盈虽然不一定每次都成功，可能止盈后币价接着上涨，但止盈操作一是可以降低风险，减少收益的波动，二是这属于逆人性操作，起到帮助市场削峰填谷的作用，会得到市场的奖励，胜算率一般会高于50%。<br>对比我的原始投资额看，ETH只投入少部分，如今却因盈利占仓位的很大部分，而BCH投入很大比例，如今却因亏损而占小部分。</p><p><img src="https://cdn.jsdelivr.net/gh/lusuzi/CDN/loading.gif" data-original="https://cdn.jsdelivr.net/gh/lusuzi/CDN/images/invest2.png"></p><p>首先因为ETH处于市值第二的头部，会较快吸纳资金恢复大跌前的价格，果然，在市值排名最前的老币种中，ETH是继BTC第二个恢复大跌前水平的币种，其次又因为目前火爆的Defi大部分是基于ETH生态的，它当然也能蹭到热度。二者叠加，ETH涨幅很大。</p><p>但是，我目前仍然很看好BCH，它符合我对去中心化的点对点现金交易币种的理想形式。首先它相比BTC进行了适当的扩容，能够承载的用户数更多，同时手续费也低了很多，当牛市BTC拥堵时，它将能够分到很多从BTC溢出的“流量”。其次它足够去中心化，没有被单个人或公司控制，而且它的社区很活跃和开放，它的大户很多也是自由主义者和进化论者，坚信<strong>自由竞争，适者生存</strong>。即便目前走势不好，但是非常具有想象空间。<strong>先发优势逐渐会被竞争劣势所磨灭，而后起劣势可被竞争优势填补。</strong></p><p>后期我将减少关注币价信息，让剩余资金自动以每日固定额度慢慢流入即可。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 投资日记 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 区块链 </tag>
-            
-            <tag> 日记 </tag>
+            <tag> 数学 </tag>
             
         </tags>
       
@@ -1071,9 +1017,9 @@
       
         <tags>
             
-            <tag> 如何致富 </tag>
-            
             <tag> 思维 </tag>
+            
+            <tag> 如何致富 </tag>
             
         </tags>
       
@@ -1502,7 +1448,7 @@
       <link href="/article/fd541bb0.html"/>
       <url>/article/fd541bb0.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><center>囚牢</center><br><center><p>看着时光在流逝</p><p>却无可奈何</p><p>坐等机遇抛我去</p><p>仍寸步难行</p><p>我的生命虽在燃烧</p><p>但只有微微火光</p><p>闪烁在无边的静夜</p><p>黑夜</p><p>如同囚牢</p><p>牢牢将我困住</p><p>使我只能伴着微光</p><p>直到生命尽头</p><p>问何时</p><p>才能积蓄余生的全部光亮于一时</p><p>驱散一直包围我的</p><p>那无边无际的黑暗</p><p>——————致已荒废了的高三上学期</p></center>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><center>囚牢</center><br><center><p>看着时光在流逝</p><p>却无可奈何</p><p>坐等机遇抛我去</p><p>仍寸步难行</p><p>我的生命虽在燃烧</p><p>但只有微微火光</p><p>闪烁在无边的静夜</p><p>黑夜</p><p>如同囚牢</p><p>牢牢将我困住</p><p>使我只能伴着微光</p><p>直到生命尽头</p><p>问何时</p><p>才能积蓄余生的全部光亮于一时</p><p>驱散一直包围我的</p><p>那无边无际的黑暗</p><br><div style="text-align:right">——————致已荒废了的高三上学期</div></center><p><right></right></p>]]></content>
       
       
       
