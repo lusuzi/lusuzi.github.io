@@ -8,6 +8,13 @@
     </url>
     
     <url>
+        <loc>https://lusuzi.github.io/friends/</loc>
+        <lastmod>2020-10-15T06:07:21.397Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
         <loc>https://lusuzi.github.io/history/</loc>
         <lastmod>2020-10-14T18:15:24.929Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -45,13 +52,6 @@
     <url>
         <loc>https://lusuzi.github.io/recommend/</loc>
         <lastmod>2020-10-14T13:54:16.671Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://lusuzi.github.io/friends/</loc>
-        <lastmod>2020-10-01T09:28:36.764Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
