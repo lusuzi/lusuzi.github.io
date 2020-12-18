@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lusuzi.github.io/"/>
-  <updated>2020-10-14T03:25:36.845Z</updated>
+  <updated>2020-10-15T01:20:31.141Z</updated>
   <id>https://lusuzi.github.io/</id>
   
   <author>
@@ -15,31 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>学习方法总结</title>
-    <link href="https://lusuzi.github.io/article/76ff70b5.html"/>
-    <id>https://lusuzi.github.io/article/76ff70b5.html</id>
-    <published>2020-10-12T12:18:40.000Z</published>
-    <updated>2020-10-14T03:25:36.845Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h4 id=&quot;1-间隔重复&quot;&gt;&lt;a href=&quot;#1-间隔重复&quot; class=&quot;headerlink&quot; title=&quot;1.间隔重复&quot;&gt;&lt;/a&gt;1.间隔重复&lt;/h4&gt;&lt;p&gt;对于无逻辑关联的内容，如毫无意义的字母组合 ，遗忘规律符合艾宾浩斯遗忘曲线，根据该曲线进行间隔重复。&lt;/p&gt;&lt;p&gt;对于有逻辑关联的内容，也就是绝大多数学习内容，最佳复习间隔为：&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;第一次学过之后，一两天之内复习一次，然后过一个星期再复习，过一个月再复习。之后，复习间隔可拉得更长。&lt;/p&gt;&lt;/blockquote&gt;
-    
-    </summary>
-    
-    
-      <category term="思维模型" scheme="https://lusuzi.github.io/categories/%E6%80%9D%E7%BB%B4%E6%A8%A1%E5%9E%8B/"/>
-    
-    
-      <category term="方法" scheme="https://lusuzi.github.io/tags/%E6%96%B9%E6%B3%95/"/>
-    
-      <category term="记忆" scheme="https://lusuzi.github.io/tags/%E8%AE%B0%E5%BF%86/"/>
-    
-      <category term="学习" scheme="https://lusuzi.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
-    
-  </entry>
   
   <entry>
     <title>如何解决冬天手脚冰凉？</title>
@@ -110,9 +85,9 @@
     
       <category term="爱情" scheme="https://lusuzi.github.io/tags/%E7%88%B1%E6%83%85/"/>
     
-      <category term="婚姻" scheme="https://lusuzi.github.io/tags/%E5%A9%9A%E5%A7%BB/"/>
-    
       <category term="观念" scheme="https://lusuzi.github.io/tags/%E8%A7%82%E5%BF%B5/"/>
+    
+      <category term="婚姻" scheme="https://lusuzi.github.io/tags/%E5%A9%9A%E5%A7%BB/"/>
     
   </entry>
   
@@ -135,9 +110,9 @@
     
       <category term="爱情" scheme="https://lusuzi.github.io/tags/%E7%88%B1%E6%83%85/"/>
     
-      <category term="婚姻" scheme="https://lusuzi.github.io/tags/%E5%A9%9A%E5%A7%BB/"/>
-    
       <category term="观念" scheme="https://lusuzi.github.io/tags/%E8%A7%82%E5%BF%B5/"/>
+    
+      <category term="婚姻" scheme="https://lusuzi.github.io/tags/%E5%A9%9A%E5%A7%BB/"/>
     
   </entry>
   
@@ -219,7 +194,7 @@
     <link href="https://lusuzi.github.io/article/ef9ebd24.html"/>
     <id>https://lusuzi.github.io/article/ef9ebd24.html</id>
     <published>2020-08-15T12:18:40.000Z</published>
-    <updated>2020-08-16T02:00:06.859Z</updated>
+    <updated>2020-12-18T04:39:40.562Z</updated>
     
     <summary type="html">
     
@@ -231,9 +206,9 @@
       <category term="随笔" scheme="https://lusuzi.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
-      <category term="处事" scheme="https://lusuzi.github.io/tags/%E5%A4%84%E4%BA%8B/"/>
-    
       <category term="观念" scheme="https://lusuzi.github.io/tags/%E8%A7%82%E5%BF%B5/"/>
+    
+      <category term="处事" scheme="https://lusuzi.github.io/tags/%E5%A4%84%E4%BA%8B/"/>
     
   </entry>
   
@@ -375,9 +350,9 @@
       <category term="读书笔记" scheme="https://lusuzi.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="演讲" scheme="https://lusuzi.github.io/tags/%E6%BC%94%E8%AE%B2/"/>
-    
       <category term="方法" scheme="https://lusuzi.github.io/tags/%E6%96%B9%E6%B3%95/"/>
+    
+      <category term="演讲" scheme="https://lusuzi.github.io/tags/%E6%BC%94%E8%AE%B2/"/>
     
   </entry>
   
@@ -404,9 +379,9 @@
       <category term="读书笔记" scheme="https://lusuzi.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="方法" scheme="https://lusuzi.github.io/tags/%E6%96%B9%E6%B3%95/"/>
-    
       <category term="数学" scheme="https://lusuzi.github.io/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+      <category term="方法" scheme="https://lusuzi.github.io/tags/%E6%96%B9%E6%B3%95/"/>
     
   </entry>
   
@@ -415,7 +390,7 @@
     <link href="https://lusuzi.github.io/article/b318b8fe.html"/>
     <id>https://lusuzi.github.io/article/b318b8fe.html</id>
     <published>2020-08-01T00:22:43.000Z</published>
-    <updated>2020-08-01T03:58:53.506Z</updated>
+    <updated>2020-12-18T03:53:24.692Z</updated>
     
     <summary type="html">
     
@@ -503,6 +478,29 @@
       <category term="观念" scheme="https://lusuzi.github.io/tags/%E8%A7%82%E5%BF%B5/"/>
     
       <category term="财富" scheme="https://lusuzi.github.io/tags/%E8%B4%A2%E5%AF%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>思维模型之汉隆剃刀</title>
+    <link href="https://lusuzi.github.io/article/6faab9c6.html"/>
+    <id>https://lusuzi.github.io/article/6faab9c6.html</id>
+    <published>2020-06-06T02:51:33.000Z</published>
+    <updated>2020-10-02T03:42:57.873Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;一个理性人在日常生活中会更多地以一件事情的概率为准绳来作决策。例如，赌博的胜率一般只有48%，那么，他就绝不会参与其中，因为在大数定律下他几乎必定输光，而一件事情的胜率哪怕只有51%，在本金安全下他可以拼命下注。&lt;/p&gt;&lt;p&gt;但是，在投资上可以保持理性的人，却不一定能在受情绪影响更大的日常交际中保持理性，以下介绍的是&lt;strong&gt;概率思维&lt;/strong&gt;在日常生活中延伸应用——&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E6%B1%89%E9%9A%86%E5%89%83%E5%88%80&quot; target=&quot;_blank&quot; rel=&quot;external nofollow noopener noreferrer&quot;&gt;汉隆剃刀&lt;/a&gt;。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="思维模型" scheme="https://lusuzi.github.io/categories/%E6%80%9D%E7%BB%B4%E6%A8%A1%E5%9E%8B/"/>
+    
+    
+      <category term="解释" scheme="https://lusuzi.github.io/tags/%E8%A7%A3%E9%87%8A/"/>
+    
+      <category term="概率" scheme="https://lusuzi.github.io/tags/%E6%A6%82%E7%8E%87/"/>
     
   </entry>
   

@@ -8,8 +8,22 @@
     </url>
     
     <url>
+        <loc>https://lusuzi.github.io/english-weak-link/</loc>
+        <lastmod>2020-12-18T04:15:04.255Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://lusuzi.github.io/works/</loc>
+        <lastmod>2020-12-18T03:14:04.183Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
         <loc>https://lusuzi.github.io/friends/</loc>
-        <lastmod>2020-10-15T06:07:21.397Z</lastmod>
+        <lastmod>2020-12-18T02:44:22.748Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -38,13 +52,6 @@
     <url>
         <loc>https://lusuzi.github.io/sing/</loc>
         <lastmod>2020-10-14T14:20:24.864Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://lusuzi.github.io/works/</loc>
-        <lastmod>2020-10-14T14:00:44.354Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
