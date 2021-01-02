@@ -8,15 +8,43 @@
     </url>
     
     <url>
+        <loc>https://lusuzi.github.io/friends/</loc>
+        <lastmod>2021-01-02T14:31:26.554Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
         <loc>https://lusuzi.github.io/about/</loc>
-        <lastmod>2021-01-02T11:26:34.651Z</lastmod>
+        <lastmod>2021-01-02T14:07:59.366Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://lusuzi.github.io/books/</loc>
+        <lastmod>2021-01-02T13:44:28.984Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://lusuzi.github.io/tools/</loc>
+        <lastmod>2021-01-02T13:41:41.230Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
         <loc>https://lusuzi.github.io/history/</loc>
-        <lastmod>2021-01-02T11:21:12.383Z</lastmod>
+        <lastmod>2021-01-02T13:40:51.458Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://lusuzi.github.io/messages/</loc>
+        <lastmod>2021-01-02T13:39:20.813Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -36,29 +64,8 @@
     </url>
     
     <url>
-        <loc>https://lusuzi.github.io/friends/</loc>
-        <lastmod>2021-01-02T09:01:53.372Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
         <loc>https://lusuzi.github.io/recommend/</loc>
         <lastmod>2021-01-02T07:09:22.709Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://lusuzi.github.io/tools/</loc>
-        <lastmod>2021-01-02T06:50:37.311Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://lusuzi.github.io/books/</loc>
-        <lastmod>2021-01-02T04:41:43.810Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -101,13 +108,6 @@
     <url>
         <loc>https://lusuzi.github.io/tags/</loc>
         <lastmod>2020-07-27T15:50:06.119Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://lusuzi.github.io/messages/</loc>
-        <lastmod>2020-07-27T07:24:38.326Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
